@@ -9,8 +9,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #ffffff;
+    --foreground: #000000;
   }
 }
 
@@ -24,4 +24,12 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.hidden-element{
+  
+}
+
+@media (min-width:0){
+  display: 
 }
