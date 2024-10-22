@@ -38,6 +38,7 @@ const handleClick = () => {
         <Link href={"/"} className={`${!visible ? "opacity-0 hidden md:block" : "opacity-100"} mr-10 md:opacity-100 mt-10 mb-12 ml-10 animate-fade-right animate-duration-1000`}>home</Link>
         <Link href={"/chiSiamo"} className={`${!visible ? "opacity-0 hidden md:block" : "opacity-100"}  mr-10 md:opacity-100 mt-10 mb-12 ml-10 animate-fade-right animate-duration-1000 animate-delay-500`}>chi siamo</Link>
         <Link href={"/contatti"} className={`${!visible ? "opacity-0 hidden md:block" : "opacity-100"}  mr-10 md:opacity-100 mt-10 mb-12 ml-10 animate-fade-right animate-duration-1000 animate-delay-1000`}>contatti</Link>
+        <Link href={"/ricerca"} className={`${!visible ? "opacity-0 hidden md:block" : "opacity-100"}  mr-10 md:opacity-100 mt-10 mb-12 ml-10 animate-fade-right animate-duration-1000 animate-delay-[1500ms]`}>ricerca</Link>
       </sezioneInfo>
       
     </header>

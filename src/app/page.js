@@ -4,11 +4,15 @@ import HomePage from "./components/homePageComponent";
 export default function Home() {
   return (
     <>
-      <div className="h-screen">
+      <div className="md:h-screen">
         <Header />
         <Hero />
-        <HomePage />
+
       </div>
+      <div className="mt-[10em] md:mt-0">
+        <HomePage />
+        </div>
+        
     </>
   );
 }
