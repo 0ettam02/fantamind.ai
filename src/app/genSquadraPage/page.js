@@ -1,5 +1,7 @@
 "use client"
 import { useState } from 'react';
+import Header from "../components/headerComponent";
+import Footer from "../components/footerComponent";
 
 export default function Home() {
   const [result, setResult] = useState(null);
@@ -50,6 +52,10 @@ export default function Home() {
   };
 
   return (
+    <>
+    <div className="h-screen">
+    <Header />
+    
     <div>
       <h1>Seleziona Squadra Fantacalcio</h1>
       <form onSubmit={handleSubmit}>
@@ -65,13 +71,20 @@ export default function Home() {
       </form>
 
       {result && (
-        <div>
-          <h2>Squadra Selezionata</h2>
-          <pre>{JSON.stringify(result, null, 2)}</pre>
-        </div>
-      )}
+  <div>
+    <h2>Squadra Selezionata</h2>
+    <ul>
+      {result.map((player) => (
+        <li key={player.Nome}>{player.Nome}</li>
+      ))}
+    </ul>
+  </div>
+)}
 
       {error && <div>{error}</div>}
     </div>
+    </div>
+    <Footer />
+    </>
   );
 }

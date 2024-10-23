@@ -17,14 +17,14 @@ dataset2["Fm"] = dataset2["Fm"].str.replace(",", ".").astype(float)
 @app.route('/seleziona_squadra', methods=['POST'])
 def seleziona_squadra():
     data = request.json
-    soglia_voto_minimo = data.get("soglia_voto_minimo", 0)
-    soglia_voto_massimo = data.get("soglia_voto_massimo", 10)
-    soglia_rp_minimi_parati = data.get("soglia_rp_minimi_parati", 0)
-    soglia_rc_minimi_calciati = data.get("soglia_rc_minimi_calciati", 0)
-    soglia_r_errati_max = data.get("soglia_r_errati_max", 10)
-    soglia_amm_max = data.get("soglia_amm_max", 10)
-    soglia_esp_max = data.get("soglia_esp_max", 10)
-    soglia_au_max = data.get("soglia_au_max", 10)
+    soglia_voto_minimo = float(data.get("soglia_voto_minimo"))
+    soglia_voto_massimo = float(data.get("soglia_voto_massimo"))
+    soglia_rp_minimi_parati = float(data.get("soglia_rp_minimi_parati"))
+    soglia_rc_minimi_calciati = float(data.get("soglia_rc_minimi_calciati"))
+    soglia_r_errati_max = float(data.get("soglia_r_errati_max"))
+    soglia_amm_max = float(data.get("soglia_amm_max"))
+    soglia_esp_max = float(data.get("soglia_esp_max"))
+    soglia_au_max = float(data.get("soglia_au_max"))
 
     # Filtro i portieri
     portieri_selezionati = dataset[
