@@ -1,0 +1,673 @@
+R;Nome;Squadra;Pv;Mv;Fm;Gf;Gs;Rp;Rc;R+;R-;Ass;Amm;Esp;Au
+P;Meret;Napoli;34;6,18;5,56;0;24;1;0;0;0;0;0;0;0
+P;Provedel;Lazio;38;6,26;5,46;0;30;0;0;0;0;0;1;0;0
+P;Maignan;Milan;22;6,16;5,34;0;21;1;0;0;0;0;0;0;0
+P;Vicario;Empoli;31;6,4;5,19;0;39;1;0;0;0;0;3;0;0
+P;Szczesny;Juventus;28;6,11;5,18;0;26;0;0;0;0;0;0;0;0
+P;Skorupski;Bologna;37;6,19;4,97;0;49;2;0;0;0;0;4;0;0
+P;Falcone;Lecce;38;6,25;5,09;0;46;1;0;0;0;0;2;0;0
+P;Silvestri;Udinese;38;6,24;4,97;0;48;0;0;0;0;0;0;0;0
+P;Rui Patricio;Roma;35;6;5,07;0;35;1;0;0;0;0;1;0;0
+P;Di Gregorio;Monza;37;6,28;4,99;0;49;0;0;0;0;1;0;0;0
+P;Milinkovic-Savic V.;Torino;38;6,03;4,89;0;41;0;0;0;0;0;4;0;0
+P;Onana;Inter;24;6,15;5,04;0;24;0;0;0;0;0;1;0;1
+P;Sportiello;Atalanta;15;6,13;4,73;0;21;0;0;0;0;0;0;0;0
+P;Dragowski;Spezia;34;6,26;4,78;0;54;1;0;0;0;1;1;0;0
+P;Terracciano;Fiorentina;29;6;4,78;0;38;1;0;0;0;0;1;0;0
+P;Carnesecchi;Cremonese;27;6,35;4,63;0;47;0;0;0;0;1;1;0;0
+P;Montipo';Verona;37;6,19;4,66;0;59;1;0;0;0;0;1;0;0
+P;Ochoa;Salernitana;20;6,48;4,95;0;33;1;0;0;0;0;1;0;0
+P;Perin;Juventus;11;6,41;6,05;0;7;1;0;0;0;0;0;0;0
+P;Cerofolini;Fiorentina;5;6,1;5,5;0;3;0;0;0;0;0;0;0;0
+P;Musso;Atalanta;23;6,13;4,85;0;27;0;0;0;0;0;1;0;1
+P;Sepe;Salernitana;17;6,29;5,15;0;27;3;0;0;0;0;3;0;0
+P;Handanovic;Inter;14;6,11;4,82;0;18;0;0;0;0;0;0;0;0
+P;Consigli;Sassuolo;35;6,04;4,47;0;55;0;0;0;0;0;0;0;0
+P;Audero;Sampdoria;25;6,3;4,88;0;39;2;0;0;0;0;1;0;1
+P;Gollini;Napoli;7;6,07;5,21;0;6;0;0;0;0;0;0;0;0
+P;Perisan;Empoli;7;6,21;4,93;0;9;0;0;0;0;0;0;0;0
+P;Tatarusanu;Milan;16;6;4,62;0;22;0;0;0;0;0;0;0;0
+P;Cordaz;Inter;1;7;7;0;0;0;0;0;0;0;0;0;0
+P;Zoet;Spezia;5;6,2;5,3;0;4;0;0;0;0;0;1;0;0
+P;Svilar;Roma;3;6;4,83;0;3;0;0;0;0;0;1;0;0
+P;Radu I.;Cremonese;9;6,11;4;0;19;0;0;0;0;0;0;0;0
+P;Sarr M.;Cremonese;2;6,25;4,75;0;3;0;0;0;0;0;0;0;0
+P;Pegolo;Sassuolo;2;6,25;4,75;0;3;0;0;0;0;0;0;0;0
+P;Ravaglia;Sampdoria;9;6,11;3,56;0;23;0;0;0;0;0;0;0;0
+P;Turk;Sampdoria;4;6,38;4,12;0;9;0;0;0;0;0;0;0;0
+P;Mirante;Milan;0;0;0;0;0;0;0;0;0;0;0;0;0
+P;Lamanna;Monza;0;0;0;0;0;0;0;0;0;0;0;0;0
+P;Ujkani;Empoli;1;5,5;4,5;0;1;0;0;0;0;0;0;0;0
+P;Berisha;Torino;0;0;0;0;0;0;0;0;0;0;0;0;0
+P;Marchetti;Spezia;1;5,5;3,5;0;2;0;0;0;0;0;0;0;0
+P;Perilli;Verona;1;6,5;6,5;0;0;0;0;0;0;0;0;0;0
+P;Padelli;Udinese;0;0;0;0;0;0;0;0;0;0;0;0;0
+P;Bardi;Bologna;1;6;6;0;0;0;0;0;0;0;0;0;0
+P;Pinsoglio;Juventus;0;0;0;0;0;0;0;0;0;0;0;0;0
+P;Fiorillo;Salernitana;1;6;4;0;2;0;0;0;0;0;0;0;0
+P;Satalino;Sassuolo;0;0;0;0;0;0;0;0;0;0;0;0;0
+P;Cragno;Monza;1;5;2;0;3;0;0;0;0;0;0;0;0
+P;Sirigu;Fiorentina;1;6,5;6,5;0;0;0;0;0;0;0;0;0;0
+P;Rossi F.;Atalanta;0;0;0;0;0;0;0;0;0;0;0;0;0
+P;Ravaglia F.;Bologna;0;0;0;0;0;0;0;0;0;0;0;0;0
+P;Rosati;Fiorentina;0;0;0;0;0;0;0;0;0;0;0;0;0
+P;Contini;Sampdoria;0;0;0;0;0;0;0;0;0;0;0;0;0
+P;Brancolini;Lecce;0;0;0;0;0;0;0;0;0;0;0;0;0
+P;Bleve;Lecce;0;0;0;0;0;0;0;0;0;0;0;0;0
+P;Berardi A.;Verona;0;0;0;0;0;0;0;0;0;0;0;0;0
+P;Russo A.;Sassuolo;1;5;2;0;3;0;0;0;0;0;0;0;0
+P;Gemello;Torino;0;0;0;0;0;0;0;0;0;0;0;0;0
+P;Boer;Roma;0;0;0;0;0;0;0;0;0;0;0;0;0
+P;Gasparini;Udinese;0;0;0;0;0;0;0;0;0;0;0;0;0
+P;Furlan;Empoli;0;0;0;0;0;0;0;0;0;0;0;0;0
+P;Adamonis;Lazio;0;0;0;0;0;0;0;0;0;0;0;0;0
+P;Marfella;Napoli;0;0;0;0;0;0;0;0;0;0;0;0;0
+P;Zovko;Spezia;1;5,5;3,5;0;2;0;0;0;0;0;0;0;0
+P;Molla;Bologna;0;0;0;0;0;0;0;0;0;0;0;0;0
+P;Russo;Salernitana;0;0;0;0;0;0;0;0;0;0;0;0;0
+P;Piana;Udinese;0;0;0;0;0;0;0;0;0;0;0;0;0
+P;Bagnolini;Bologna;0;0;0;0;0;0;0;0;0;0;0;0;0
+P;Luis Maximiano;Lazio;1;4;3;0;0;0;0;0;0;0;0;1;0
+P;Sorrentino A.;Monza;0;0;0;0;0;0;0;0;0;0;0;0;0
+P;Ciezkowski;Cremonese;0;0;0;0;0;0;0;0;0;0;0;0;0
+P;Micai;Salernitana;0;0;0;0;0;0;0;0;0;0;0;0;0
+P;Chiesa M.;Verona;0;0;0;0;0;0;0;0;0;0;0;0;0
+P;Saro;Cremonese;0;0;0;0;0;0;0;0;0;0;0;0;0
+P;Vasquez D.;Milan;0;0;0;0;0;0;0;0;0;0;0;0;0
+P;Martinelli T.;Fiorentina;0;0;0;0;0;0;0;0;0;0;0;0;0
+D;Carlos Augusto;Monza;35;6,16;6,76;6;0;0;0;0;0;5;4;0;0
+D;Dimarco;Inter;33;6,21;6,7;4;0;0;0;0;0;4;0;0;0
+D;Posch;Bologna;30;6,12;6,68;6;0;0;0;0;0;2;6;0;0
+D;Di Lorenzo;Napoli;37;6,26;6,58;3;0;0;0;0;0;4;2;0;0
+D;Zappacosta;Atalanta;21;6,12;6,64;4;0;0;0;0;0;1;4;0;0
+D;Danilo;Juventus;37;6,2;6,46;3;0;0;0;0;0;3;5;0;0
+D;Smalling;Roma;32;6,31;6,52;3;0;0;0;0;0;1;7;0;0
+D;Molina N.;Udinese;0;0;0;0;0;0;0;0;0;0;0;0;0
+D;Kim;Napoli;35;6,27;6,43;2;0;0;0;0;0;2;5;0;0
+D;Romagnoli;Lazio;34;6,21;6,29;2;0;0;0;0;0;0;6;0;0
+D;Hernandez T.;Milan;32;6,11;6,41;4;0;0;1;1;0;3;7;0;1
+D;Udogie;Udinese;32;6,08;6,41;3;0;0;0;0;0;4;5;0;0
+D;Ebuehi;Empoli;25;6,06;6,46;2;0;0;0;0;0;4;0;0;0
+D;Mazzocchi;Salernitana;27;6,17;6,46;2;0;0;0;0;0;3;2;0;0
+D;Valeri;Cremonese;37;6,08;6,31;2;0;0;0;0;0;4;3;0;0
+D;Rrahmani;Napoli;28;6,14;6,36;2;0;0;0;0;0;1;2;0;0
+D;Zanoli;Sampdoria;20;6;6,32;2;0;0;0;0;0;2;3;0;0
+D;Doig;Verona;21;6,07;6,52;2;0;0;0;0;0;4;1;0;0
+D;Gosens;Inter;25;5,96;6,3;3;0;0;0;0;0;0;2;0;0
+D;Buongiorno;Torino;34;6,12;6,15;1;0;0;0;0;0;2;8;0;0
+D;Bremer;Juventus;30;6,05;6,35;4;0;0;0;0;0;0;6;0;0
+D;Baschirotto;Lecce;37;6,07;6,23;3;0;0;0;0;0;0;6;0;0
+D;Schuurs;Torino;29;6,21;6,19;0;0;0;0;0;0;2;5;0;0
+D;Spinazzola;Roma;26;6,04;6,25;1;0;0;0;0;0;4;3;0;0
+D;Mancini;Roma;35;6,11;6,16;1;0;0;0;0;0;2;7;0;0
+D;Tomori;Milan;33;6,08;6,09;1;0;0;0;0;0;0;5;0;0
+D;Parisi;Empoli;33;6,14;6,14;2;0;0;0;0;0;0;10;1;0
+D;Olivera;Napoli;24;6,02;6,27;2;0;0;0;0;0;1;2;0;0
+D;Hysaj;Lazio;30;5,97;6,05;1;0;0;0;0;0;1;3;0;0
+D;Biraghi;Fiorentina;32;6,05;6,19;2;0;0;1;0;1;4;1;0;1
+D;Luperto;Empoli;36;5,93;6,01;2;0;0;0;0;0;0;2;2;0
+D;Toloi;Atalanta;32;5,98;6,05;2;0;0;0;0;0;0;8;0;0
+D;Bastoni;Inter;29;6,12;6,14;0;0;0;0;0;0;2;3;0;0
+D;Depaoli;Verona;33;5,95;6,05;2;0;0;0;0;0;1;8;0;0
+D;Darmian;Inter;27;6,06;6,19;1;0;0;0;0;0;2;3;0;0
+D;Augello;Sampdoria;37;5,84;6,09;2;0;0;0;0;0;5;3;0;0
+D;Bastoni S.;Spezia;18;6,14;6,5;2;0;0;0;0;0;4;7;0;0
+D;Maehle;Atalanta;30;5,93;6,18;3;0;0;0;0;0;2;5;1;0
+D;Casale;Lazio;29;6;6,03;1;0;0;0;0;0;1;6;0;0
+D;Dumfries;Inter;34;5,91;6;1;0;0;0;0;0;4;4;0;1
+D;Scalvini;Atalanta;32;5,95;6,03;2;0;0;0;0;0;0;7;0;0
+D;Theate;Bologna;0;0;0;0;0;0;0;0;0;0;0;0;0
+D;Perez N.;Udinese;33;6,02;6;2;0;0;0;0;0;0;7;1;1
+D;Bijol;Udinese;32;5,88;6,03;3;0;0;0;0;0;1;10;0;0
+D;Mario Rui;Napoli;22;6,11;6,25;0;0;0;0;0;0;5;2;1;0
+D;Acerbi;Inter;31;6;5,97;0;0;0;0;0;0;1;4;0;0
+D;Faraoni;Verona;21;5,95;6,17;2;0;0;0;0;0;2;7;0;0
+D;Milenkovic;Fiorentina;27;5,94;6,06;2;0;0;0;0;0;1;4;0;1
+D;Rodriguez R.;Torino;34;6;5,96;0;0;0;0;0;0;0;3;0;0
+D;Reca;Spezia;30;6,02;6,03;1;0;0;0;0;0;0;5;0;0
+D;Kyriakopoulos;Bologna;21;6,05;6,21;1;0;0;0;0;0;3;5;0;0
+D;Singo;Torino;28;5,93;6,04;2;0;0;0;0;0;1;8;0;0
+D;Mari';Monza;29;5,93;5,97;1;0;0;0;0;0;0;4;0;0
+D;Cambiaso;Bologna;31;5,97;6,03;0;0;0;0;0;0;3;2;0;0
+D;Dodo';Fiorentina;33;5,88;5,98;1;0;0;0;0;0;3;3;1;0
+D;Masina;Udinese;11;5,91;6,36;2;0;0;0;0;0;0;2;0;0
+D;Izzo;Monza;29;6,03;5,97;1;0;0;0;0;0;0;10;0;0
+D;Calabria;Milan;23;5,96;6,09;1;0;0;0;0;0;3;6;0;0
+D;Skriniar;Inter;21;5,79;5,57;0;0;0;0;0;0;0;3;1;1
+D;Sernicola;Cremonese;31;5,87;5,95;2;0;0;0;0;0;2;11;0;0
+D;Terzic;Fiorentina;17;6,03;6,21;1;0;0;0;0;0;1;2;0;0
+D;Rodrigo Becao;Udinese;28;6,05;6;2;0;0;0;0;0;1;11;1;1
+D;Pirola;Salernitana;25;5,78;5,94;2;0;0;0;0;0;0;4;0;0
+D;Caldirola;Monza;30;5,93;6,03;2;0;0;0;0;0;0;6;0;0
+D;Juan Jesus;Napoli;12;6,08;6,25;1;0;0;0;0;0;0;2;0;0
+D;Bonucci;Juventus;11;6,05;6;1;0;0;1;0;1;0;1;0;0
+D;De Vrij;Inter;25;5,94;5,98;1;0;0;0;0;0;0;4;0;0
+D;Djimsiti;Atalanta;22;5,91;5,89;0;0;0;0;0;0;1;3;0;0
+D;Marusic;Lazio;33;6,02;5,92;0;0;0;0;0;0;2;8;1;0
+D;Djidji;Torino;32;5,77;5,81;1;0;0;0;0;0;0;3;0;0
+D;Ibanez;Roma;33;5,79;5,83;3;0;0;0;0;0;0;9;1;1
+D;Kalulu;Milan;32;5,75;5,78;1;0;0;0;0;0;0;4;0;0
+D;Vojvoda;Torino;27;5,85;5,98;0;0;0;0;0;0;5;3;0;0
+D;Llorente D.;Roma;8;6,06;6,06;0;0;0;0;0;0;0;0;0;0
+D;Martinez Quarta;Fiorentina;27;5,94;5,98;1;0;0;0;0;0;1;6;0;0
+D;Kiwior;Spezia;17;5,91;5,82;0;0;0;0;0;0;0;3;0;0
+D;Gendrey;Lecce;36;5,88;5,85;0;0;0;0;0;0;1;4;0;0
+D;Hien;Verona;32;5,94;5,8;0;0;0;0;0;0;0;9;0;0
+D;Patric;Lazio;17;6,12;6,09;0;0;0;0;0;0;0;1;0;0
+D;Gyomber;Salernitana;23;6;5,93;0;0;0;0;0;0;1;5;0;0
+D;Rogerio;Sassuolo;35;5,77;5,76;0;0;0;0;0;0;3;5;1;0
+D;Umtiti;Lecce;24;5,98;5,81;0;0;0;0;0;0;0;8;0;0
+D;Troost-Ekong;Salernitana;8;5,94;6,25;1;0;0;0;0;0;0;1;0;0
+D;Nikolaou;Spezia;34;5,69;5,63;1;0;0;0;0;0;0;8;1;0
+D;Demiral;Atalanta;22;5,95;5,98;1;0;0;0;0;0;0;5;0;0
+D;Lazaro;Torino;20;6;6,05;0;0;0;0;0;0;3;4;0;0
+D;Zortea;Sassuolo;15;6;6,1;1;0;0;0;0;0;1;5;0;0
+D;Ampadu;Spezia;31;5,92;5,79;0;0;0;0;0;0;1;8;1;0
+D;Vasquez;Cremonese;23;5,78;5,76;1;0;0;0;0;0;0;7;0;0
+D;Bradaric;Salernitana;30;5,75;5,77;0;0;0;0;0;0;3;5;0;0
+D;Viti;Empoli;0;0;0;0;0;0;0;0;0;0;0;0;0
+D;Lochoshvili;Cremonese;24;5,81;5,9;1;0;0;0;0;0;1;4;0;0
+D;Ehizibue;Udinese;21;5,79;5,93;2;0;0;0;0;0;0;7;0;0
+D;Thiaw;Milan;19;5,92;5,79;0;0;0;0;0;0;0;5;0;0
+D;D'ambrosio;Inter;13;5,96;5,96;0;0;0;0;0;0;2;2;1;0
+D;Medel;Bologna;23;5,93;5,87;0;0;0;0;0;0;1;5;0;0
+D;De Silvestri;Bologna;13;5,92;5,96;1;0;0;0;0;0;0;1;0;1
+D;Ceccherini;Verona;20;5,88;5,9;2;0;0;0;0;0;0;9;1;0
+D;Ferrari G.;Sassuolo;27;5,8;5,81;1;0;0;0;0;0;0;5;0;0
+D;Lykogiannis;Bologna;19;5,97;6,21;2;0;0;0;0;0;0;3;0;0
+D;Colley;Sampdoria;16;5,75;5,78;1;0;0;0;0;0;0;5;0;0
+D;Aina;Torino;16;6;6,09;1;0;0;0;0;0;1;5;0;0
+D;Ranieri L.;Fiorentina;8;6,25;6,19;0;0;0;0;0;0;0;1;0;0
+D;Toljan;Sassuolo;31;5,69;5,68;0;0;0;0;0;0;1;3;0;0
+D;Gallo;Lecce;31;5,82;5,65;0;0;0;0;0;0;1;3;1;2
+D;Bellanova;Inter;11;6;6;0;0;0;0;0;0;0;0;0;0
+D;Soumaoro;Bologna;23;6;5,89;0;0;0;0;0;0;0;3;1;0
+D;Ismajli;Empoli;25;6;5,86;0;0;0;0;0;0;0;3;0;1
+D;Ballo-Toure';Milan;7;5,86;6,29;1;0;0;0;0;0;0;0;0;0
+D;Amione;Sampdoria;27;5,69;5,63;1;0;0;0;0;0;1;9;1;0
+D;Holm;Spezia;18;6,06;6,17;1;0;0;0;0;0;1;4;0;0
+D;Gatti;Juventus;16;5,94;5,81;0;0;0;0;0;0;0;4;0;0
+D;Birindelli;Monza;30;5,83;5,77;0;0;0;0;0;0;2;8;0;0
+D;Ebosele;Udinese;10;6;6;0;0;0;0;0;0;1;4;0;0
+D;Sambia;Salernitana;13;5,88;5,92;0;0;0;0;0;0;1;3;0;0
+D;Lucumi';Bologna;33;5,83;5,68;0;0;0;0;0;0;1;8;0;1
+D;Ferrari A.;Cremonese;27;5,7;5,59;0;0;0;0;0;0;0;6;0;0
+D;Ranocchia;Monza;1;5,5;5,5;0;0;0;0;0;0;0;0;0;0
+D;Chiriches;Cremonese;15;6;5,8;0;0;0;0;0;0;0;2;0;1
+D;Pereira P.;Monza;0;0;0;0;0;0;0;0;0;0;0;0;0
+D;Palomino;Atalanta;14;5,82;5,75;1;0;0;0;0;0;0;4;0;1
+D;Bonifazi;Bologna;13;5,73;5,65;0;0;0;0;0;0;0;2;0;0
+D;Lazzari;Lazio;26;6;5,77;0;0;0;0;0;0;0;8;0;1
+D;Nuytinck;Sampdoria;24;5,75;5,69;0;0;0;0;0;0;1;5;0;0
+D;Gunter;Sampdoria;23;5,63;5,7;1;0;0;0;0;0;1;5;0;0
+D;Magnani;Verona;24;5,81;5,58;0;0;0;0;0;0;1;7;1;1
+D;Zeegelaar;Udinese;6;5,75;6;1;0;0;0;0;0;0;1;1;0
+D;Igor;Fiorentina;26;5,73;5,54;0;0;0;0;0;0;0;8;1;0
+D;Dawidowicz;Verona;22;5,8;5,8;1;0;0;0;0;0;1;6;1;0
+D;Celik;Roma;21;5,81;5,69;0;0;0;0;0;0;1;5;1;0
+D;Stojanovic;Empoli;23;5,7;5,67;0;0;0;0;0;0;1;3;0;0
+D;Amian;Spezia;30;5,65;5,53;0;0;0;0;0;0;0;5;1;0
+D;Daniliuc;Salernitana;27;5,69;5,5;0;0;0;0;0;0;0;10;0;0
+D;Kasius;Bologna;6;6;6,25;0;0;0;0;0;0;2;1;0;0
+D;Aiwu;Cremonese;22;5,61;5,55;0;0;0;0;0;0;0;3;0;0
+D;Wisniewski;Spezia;11;5,73;5,5;1;0;0;0;0;0;0;3;0;2
+D;Ghiglione;Cremonese;11;5,82;6;1;0;0;0;0;0;1;4;0;0
+D;Rugani;Juventus;7;6;6;0;0;0;0;0;0;0;0;0;0
+D;De Sciglio;Juventus;17;5,76;5,76;0;0;0;0;0;0;0;0;0;0
+D;Bianchetti;Cremonese;25;5,58;5,6;1;0;0;0;0;0;0;5;0;0
+D;Alex Sandro;Juventus;23;5,61;5,52;0;0;0;0;0;0;1;4;1;0
+D;Murru;Sampdoria;17;5,56;5,47;0;0;0;0;0;0;0;3;0;0
+D;Sampirisi;Monza;0;0;0;0;0;0;0;0;0;0;0;0;0
+D;Bereszynski;Napoli;17;5,71;5,71;0;0;0;0;0;0;1;2;0;0
+D;Hateboer;Atalanta;17;5,88;5,91;1;0;0;0;0;0;1;7;0;0
+D;Venuti;Fiorentina;16;5,72;5,66;0;0;0;0;0;0;0;2;0;0
+D;Gravillon;Torino;5;5,9;5,7;0;0;0;0;0;0;0;2;0;0
+D;Leverbe;Sampdoria;0;0;0;0;0;0;0;0;0;0;0;0;0
+D;Hristov;Spezia;8;5,69;5,69;0;0;0;0;0;0;0;0;0;0
+D;Marlon;Monza;24;5,73;5,46;0;0;0;0;0;0;0;7;1;1
+D;Kjaer;Milan;14;5,96;5,82;0;0;0;0;0;0;0;4;0;0
+D;Pellegrini Lu.;Lazio;3;6,17;5,83;0;0;0;0;0;0;0;3;0;0
+D;Calabresi;Lecce;0;0;0;0;0;0;0;0;0;0;0;0;0
+D;Walukiewicz;Empoli;9;5,89;5,89;0;0;0;0;0;0;0;0;0;0
+D;Okoli;Atalanta;14;5,71;5,61;0;0;0;0;0;0;0;3;0;0
+D;Benkovic;Udinese;0;0;0;0;0;0;0;0;0;0;0;0;0
+D;Lovato;Salernitana;14;5,57;5,5;0;0;0;0;0;0;0;2;0;0
+D;Frabotta;Lecce;0;0;0;0;0;0;0;0;0;0;0;0;0
+D;Ayhan;Sassuolo;8;5,62;5,56;0;0;0;0;0;0;0;1;0;0
+D;Erlic;Sassuolo;27;5,7;5,59;0;0;0;0;0;0;0;2;0;1
+D;Ceccaroni;Lecce;2;6;6;0;0;0;0;0;0;0;0;0;0
+D;Coppola D.;Verona;16;5,81;5,66;0;0;0;0;0;0;0;5;0;0
+D;Cacace;Empoli;10;5,65;5,6;0;0;0;0;0;0;0;1;0;0
+D;Ravanelli;Cremonese;0;0;0;0;0;0;0;0;0;0;0;0;0
+D;Quagliata;Cremonese;16;5,75;5,75;0;0;0;0;0;0;1;0;1;0
+D;Abankwah;Udinese;1;6,5;6,5;0;0;0;0;0;0;0;0;0;0
+D;Guessand A.;Udinese;1;6,5;6,5;0;0;0;0;0;0;0;0;0;0
+D;Cabal;Verona;9;5,89;5,72;0;0;0;0;0;0;0;3;0;0
+D;Oikonomou;Sampdoria;6;5,83;5,58;0;0;0;0;0;0;0;3;0;0
+D;Gagliolo;Salernitana;0;0;0;0;0;0;0;0;0;0;0;0;0
+D;Radovanovic;Salernitana;10;5,4;5,25;0;0;0;0;0;0;0;1;1;0
+D;Dermaku;Lecce;1;5,5;5,5;0;0;0;0;0;0;0;0;0;0
+D;Tonelli;Empoli;1;5,5;5,5;0;0;0;0;0;0;0;0;0;0
+D;Murillo;Sampdoria;16;5,53;5,22;0;0;0;0;0;0;0;4;1;1
+D;Pezzella Giu.;Lecce;14;5,71;5,71;0;0;0;0;0;0;1;2;0;0
+D;Fazio;Salernitana;12;5,67;5,79;1;0;0;0;0;0;0;1;1;0
+D;Karsdorp;Roma;12;5,71;5,71;0;0;0;0;0;0;0;0;0;0
+D;Marchizza;Sassuolo;5;6,1;6;0;0;0;0;0;0;0;1;0;0
+D;Romagna;Sassuolo;1;5,5;5,5;0;0;0;0;0;0;0;0;0;0
+D;Donati;Monza;8;5,81;5,94;1;0;0;0;0;0;0;2;1;0
+D;Retsos;Verona;2;5,5;5,5;0;0;0;0;0;0;0;0;0;0
+D;Dijks;Bologna;0;0;0;0;0;0;0;0;0;0;0;0;0
+D;Gabbia;Milan;9;5,5;5,39;0;0;0;0;0;0;0;2;0;0
+D;Tuia;Lecce;7;6,07;6;0;0;0;0;0;0;0;1;0;0
+D;Ferrer;Spezia;4;5,5;5,5;0;0;0;0;0;0;0;0;0;0
+D;Dest;Milan;7;5,64;5,64;0;0;0;0;0;0;0;0;0;0
+D;Ruggeri;Atalanta;10;5,85;5,8;0;0;0;0;0;0;1;3;0;0
+D;Antov;Monza;6;5,42;5,25;0;0;0;0;0;0;0;2;0;0
+D;Pongracic;Lecce;9;6;5,89;0;0;0;0;0;0;0;2;0;0
+D;Soppy;Atalanta;12;5,75;5,88;0;0;0;0;0;0;3;3;0;0
+D;Tressoldi;Sassuolo;21;5,64;5,21;0;0;0;0;0;0;0;9;3;1
+D;Ostigard;Napoli;6;6;5,92;0;0;0;0;0;0;0;1;0;0
+D;Gila;Lazio;2;5,5;5,5;0;0;0;0;0;0;0;0;0;0
+D;Bayeye;Torino;1;5,5;5,5;0;0;0;0;0;0;0;0;0;0
+D;Barbieri;Juventus;2;6;6;0;0;0;0;0;0;0;0;0;0
+D;Bronn;Salernitana;21;5,57;5,43;0;0;0;0;0;0;0;4;1;0
+D;Hendry;Cremonese;3;5,83;5,67;0;0;0;0;0;0;0;1;0;0
+D;Conti;Sampdoria;1;6;6;0;0;0;0;0;0;0;0;0;0
+D;Mbaye;Bologna;0;0;0;0;0;0;0;0;0;0;0;0;0
+D;Romagnoli S.;Lecce;4;5,62;5,62;0;0;0;0;0;0;0;0;0;0
+D;Marrone;Monza;2;5,75;5,75;0;0;0;0;0;0;0;0;0;0
+D;Radu;Lazio;0;0;0;0;0;0;0;0;0;0;0;0;0
+D;Paletta;Monza;0;0;0;0;0;0;0;0;0;0;0;0;0
+D;Capradossi;Spezia;0;0;0;0;0;0;0;0;0;0;0;0;0
+D;Florenzi;Milan;4;5,88;5,75;0;0;0;0;0;0;0;1;0;0
+D;Sala;Spezia;3;5,83;5,83;0;0;0;0;0;0;0;1;0;0
+D;Fares;Lazio;0;0;0;0;0;0;0;0;0;0;0;0;0
+D;Caldara;Spezia;16;5,44;5,12;0;0;0;0;0;0;0;6;0;1
+D;Veseli;Salernitana;0;0;0;0;0;0;0;0;0;0;0;0;0
+D;Jaroszynski;Salernitana;0;0;0;0;0;0;0;0;0;0;0;0;0
+D;Nastasic;Fiorentina;0;0;0;0;0;0;0;0;0;0;0;0;0
+D;Bettella;Monza;0;0;0;0;0;0;0;0;0;0;0;0;0
+D;Cassandro;Lecce;0;0;0;0;0;0;0;0;0;0;0;0;0
+D;Kumbulla;Roma;5;5,4;5,1;0;0;0;0;0;0;0;1;1;0
+D;Cetin;Lecce;1;5;5;0;0;0;0;0;0;0;0;0;0
+D;Muldur;Sassuolo;0;0;0;0;0;0;0;0;0;0;0;0;0
+D;Adopo;Torino;4;5,88;5,75;0;0;0;0;0;0;0;1;0;0
+D;Carboni A.;Monza;3;5,33;5,33;0;0;0;0;0;0;0;0;0;0
+D;Calafiori;Roma;0;0;0;0;0;0;0;0;0;0;0;0;0
+D;Vignali;Spezia;0;0;0;0;0;0;0;0;0;0;0;0;0
+D;Amey;Bologna;0;0;0;0;0;0;0;0;0;0;0;0;0
+D;Ferrarini;Monza;0;0;0;0;0;0;0;0;0;0;0;0;0
+D;Kamenovic;Lazio;0;0;0;0;0;0;0;0;0;0;0;0;0
+D;Kechrida;Salernitana;0;0;0;0;0;0;0;0;0;0;0;0;0
+D;Vina;Roma;1;5,5;5,5;0;0;0;0;0;0;0;0;0;0
+D;Zima;Torino;8;5,81;5,81;0;0;0;0;0;0;0;0;0;0
+D;De Winter;Empoli;13;5,73;5,62;0;0;0;0;0;0;0;3;0;0
+D;Zanotti;Inter;1;6;6;0;0;0;0;0;0;0;0;0;0
+D;Motoc;Salernitana;0;0;0;0;0;0;0;0;0;0;0;0;0
+D;Bertola;Spezia;0;0;0;0;0;0;0;0;0;0;0;0;0
+D;Buta;Udinese;0;0;0;0;0;0;0;0;0;0;0;0;0
+D;Ndiaye;Cremonese;0;0;0;0;0;0;0;0;0;0;0;0;0
+D;Fiordaliso;Cremonese;0;0;0;0;0;0;0;0;0;0;0;0;0
+D;Ebosse;Udinese;14;5,64;5,54;0;0;0;0;0;0;0;3;0;0
+D;Sosa;Bologna;9;5,39;5,28;0;0;0;0;0;0;0;2;0;0
+D;Guarino;Empoli;0;0;0;0;0;0;0;0;0;0;0;0;0
+D;Moutinho J.;Spezia;2;5,75;5,75;0;0;0;0;0;0;0;0;0;0
+D;Zeefuik;Verona;0;0;0;0;0;0;0;0;0;0;0;0;0
+D;Carboni F.;Monza;2;6,25;6,25;0;0;0;0;0;0;0;0;0;0
+C;Kvaratskhelia;Napoli;34;6,62;7,96;12;0;0;2;2;0;10;1;0;0
+C;Zaccagni;Lazio;35;6,54;7,44;10;0;0;1;1;0;6;9;0;0
+C;Milinkovic-Savic;Lazio;36;6,25;7,08;9;0;0;0;0;0;8;10;0;0
+C;Felipe Anderson;Lazio;38;6,25;7;9;0;0;0;0;0;3;3;0;0
+C;El Shaarawy;Roma;26;6,37;7,15;7;0;0;0;0;0;1;3;0;0
+C;Rabiot;Juventus;32;6,3;7,03;8;0;0;0;0;0;4;9;0;0
+C;Luis Alberto;Lazio;34;6,34;6,93;6;0;0;2;1;1;7;4;0;0
+C;Orsolini;Bologna;32;6,16;7,09;11;0;0;3;3;0;2;6;2;0
+C;Strefezza;Lecce;34;6,31;6,97;8;0;0;3;2;1;4;5;0;0
+C;Koopmeiners;Atalanta;33;6,36;7,14;10;0;0;4;2;2;5;7;0;0
+C;Barella;Inter;35;6,26;6,86;6;0;0;0;0;0;6;6;0;0
+C;Vlasic;Torino;34;6,22;6,82;5;0;0;0;0;0;6;1;0;0
+C;Zielinski;Napoli;37;6,3;6,72;3;0;0;0;0;0;8;3;0;0
+C;Pereyra;Udinese;34;6,26;6,69;5;0;0;1;0;1;6;7;0;0
+C;Candreva;Salernitana;35;6,21;6,89;7;0;0;0;0;0;4;1;1;0
+C;Frattesi;Sassuolo;36;6,26;6,79;7;0;0;0;0;0;0;4;0;0
+C;Diaz B.;Milan;33;6,18;6,83;6;0;0;0;0;0;5;3;0;0
+C;Miranchuk;Torino;28;6,23;6,84;4;0;0;0;0;0;5;0;0;0
+C;Ferguson;Bologna;31;6,24;6,85;7;0;0;0;0;0;0;4;0;0
+C;Ciurria;Monza;35;6,19;6,81;6;0;0;0;0;0;6;4;0;0
+C;Lazovic;Verona;30;6,25;6,82;4;0;0;0;0;0;5;0;0;0
+C;Calhanoglu;Inter;33;6,36;6,74;3;0;0;1;1;0;5;3;0;0
+C;Elmas;Napoli;34;6,15;6,69;6;0;0;1;1;0;3;5;0;0
+C;Lovric;Udinese;36;6,18;6,71;5;0;0;0;0;0;6;4;0;0
+C;Ruiz;Napoli;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Zambo Anguissa;Napoli;36;6,25;6,6;3;0;0;0;0;0;5;3;0;0
+C;Samardzic;Udinese;32;6,05;6,59;5;0;0;0;0;0;3;1;0;0
+C;Baldanzi;Empoli;26;6,15;6,58;4;0;0;0;0;0;0;2;0;0
+C;Bonaventura;Fiorentina;28;6,25;6,71;5;0;0;0;0;0;1;4;1;0
+C;Pessina;Monza;35;6,14;6,57;5;0;0;3;3;0;3;6;0;0
+C;Tonali;Milan;33;6,2;6,48;2;0;0;0;0;0;7;7;0;0
+C;Kostic;Juventus;36;6,11;6,6;3;0;0;0;0;0;10;3;0;0
+C;Brozovic;Inter;26;6,19;6,56;3;0;0;0;0;0;5;9;0;0
+C;Verdi;Verona;22;6,07;6,7;5;0;0;1;1;0;0;3;0;0
+C;Chiesa;Juventus;21;6,12;6,6;2;0;0;0;0;0;5;2;0;0
+C;Lobotka;Napoli;38;6,26;6,34;1;0;0;0;0;0;1;2;0;0
+C;Fagioli;Juventus;23;6,13;6,59;3;0;0;0;0;0;3;3;0;0
+C;Malinovskyi;Atalanta;12;6;6,38;1;0;0;0;0;0;2;2;0;0
+C;Messias;Milan;25;6;6,62;5;0;0;0;0;0;2;3;0;0
+C;Colpani;Monza;24;6,1;6,62;4;0;0;0;0;0;1;1;0;0
+C;Pellegrini Lo.;Roma;32;5,97;6,33;4;0;0;3;2;1;5;5;0;0
+C;Politano;Napoli;23;6,22;6,54;3;0;0;3;2;1;2;1;0;0
+C;Pasalic;Atalanta;32;5,95;6,41;5;0;0;0;0;0;1;3;0;0
+C;Matic;Roma;34;6,16;6,32;2;0;0;0;0;0;2;5;0;0
+C;Mkhitaryan;Inter;31;6,1;6,39;3;0;0;0;0;0;2;4;0;0
+C;Wijnaldum;Roma;11;6,14;6,68;2;0;0;0;0;0;0;0;0;0
+C;Bennacer;Milan;28;6,23;6,46;2;0;0;0;0;0;3;5;0;0
+C;Ikone';Fiorentina;30;6,03;6,43;4;0;0;0;0;0;2;4;0;0
+C;Dominguez;Bologna;31;6,26;6,45;3;0;0;0;0;0;2;10;0;0
+C;Damsgaard;Sampdoria;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Radonjic;Torino;26;6,19;6,54;2;0;0;0;0;0;3;1;0;0
+C;Moro N.;Bologna;25;6,04;6,3;1;0;0;0;0;0;4;1;0;0
+C;De Roon;Atalanta;34;6,1;6,26;3;0;0;0;0;0;0;7;0;0
+C;Saponara;Fiorentina;24;6,06;6,6;4;0;0;0;0;0;3;4;0;0
+C;Pogba;Juventus;5;6;6;0;0;0;0;0;0;0;0;0;0
+C;Lukic;Torino;15;6,07;6,33;2;0;0;1;1;0;0;4;0;0
+C;Ilic;Torino;25;6,06;6,34;2;0;0;0;0;0;3;4;0;0
+C;Ricci S.;Torino;28;6,16;6,3;2;0;0;0;0;0;1;6;0;0
+C;Coulibaly L.;Salernitana;35;6,06;6,23;3;0;0;0;0;0;3;12;0;0
+C;Matheus Henrique;Sassuolo;30;5,9;6,27;4;0;0;0;0;0;1;4;0;0
+C;Mandragora;Fiorentina;28;6,04;6,25;2;0;0;0;0;0;4;8;0;0
+C;Sensi;Monza;27;6,02;6,26;3;0;0;0;0;0;1;8;0;0
+C;Barak;Fiorentina;28;5,82;5,96;2;0;0;0;0;0;0;4;0;0
+C;Veretout;Roma;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Oudin;Lecce;25;5,98;6,3;3;0;0;0;0;0;0;3;0;0
+C;Locatelli;Juventus;31;6,15;6,08;0;0;0;0;0;0;2;8;0;0
+C;Kastanos;Salernitana;22;6,02;6,2;2;0;0;0;0;0;0;4;0;0
+C;Zakaria;Juventus;2;5,75;5,75;0;0;0;0;0;0;0;0;0;0
+C;Castrovilli;Fiorentina;12;6,08;6,54;2;0;0;0;0;0;1;3;0;0
+C;Rovella;Monza;25;6,1;6,16;1;0;0;0;0;0;2;6;1;0
+C;Saelemaekers;Milan;29;5,91;6,17;2;0;0;0;0;0;2;1;0;0
+C;Marin;Empoli;32;5,98;6,2;2;0;0;0;0;0;4;7;0;0
+C;Zalewski;Roma;32;5,98;6,16;2;0;0;0;0;0;1;3;0;0
+C;Bajrami;Sassuolo;36;5,83;6,01;2;0;0;0;0;0;1;1;0;0
+C;Ederson D.s.;Atalanta;34;5,94;6;1;0;0;0;0;0;1;4;0;0
+C;Hjulmand;Lecce;35;6,1;6,03;0;0;0;0;0;0;3;9;1;0
+C;De Ketelaere;Milan;27;5,74;5,74;0;0;0;0;0;0;1;2;0;0
+C;Vilhena;Salernitana;32;5,86;6,19;4;0;0;0;0;0;1;5;0;0
+C;Iling Junior;Juventus;8;6,19;6,62;1;0;0;0;0;0;1;1;0;0
+C;Vecino;Lazio;30;5,95;6,05;2;0;0;0;0;0;0;6;0;0
+C;Freuler;Atalanta;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Zaniolo;Roma;13;5,81;5,88;1;0;0;0;0;0;0;4;0;0
+C;Bourabia;Spezia;37;5,91;6;1;0;0;0;0;0;2;3;0;0
+C;Traore' Hj.;Sassuolo;11;5,77;6;0;0;0;0;0;0;3;1;0;0
+C;Maldini;Spezia;15;6,07;6,43;2;0;0;0;0;0;0;1;0;0
+C;Bove;Roma;17;6,03;6,15;1;0;0;0;0;0;0;2;0;0
+C;Thorstvedt;Sassuolo;25;6;6,2;2;0;0;0;0;0;1;5;0;0
+C;Cristante;Roma;36;5,99;5,89;1;0;0;1;0;1;1;7;1;0
+C;Bandinelli;Empoli;35;5,89;5,91;2;0;0;0;0;0;0;10;0;0
+C;Walace;Udinese;37;5,95;5,89;0;0;0;0;0;0;1;6;0;0
+C;Soriano;Bologna;23;6,02;6,26;1;0;0;0;0;0;3;1;0;0
+C;Schouten;Bologna;31;5,97;5,92;0;0;0;0;0;0;2;3;0;1
+C;Agudelo;Spezia;34;5,93;5,88;0;0;0;0;0;0;1;5;0;0
+C;Akpa Akpro;Empoli;24;6,04;6;1;0;0;0;0;0;1;6;2;0
+C;Makengo;Udinese;15;6;6;0;0;0;0;0;0;1;2;0;0
+C;Harroui;Sassuolo;17;5,94;6,24;2;0;0;0;0;0;0;2;0;0
+C;Blin;Lecce;34;5,94;5,91;1;0;0;0;0;0;0;8;0;0
+C;Cataldi;Lazio;28;5,98;5,93;0;0;0;0;0;0;1;5;0;0
+C;Duncan;Fiorentina;21;5,88;5,95;1;0;0;0;0;0;0;3;0;0
+C;Cuadrado;Juventus;30;5,85;5,92;1;0;0;0;0;0;3;6;1;0
+C;Linetty;Torino;29;5,95;5,93;1;0;0;0;0;0;0;8;0;0
+C;Coulibaly M.;Salernitana;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Stulac;Empoli;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Sottil;Fiorentina;16;5,97;6,06;0;0;0;0;0;0;2;1;0;0
+C;Ascacibar;Cremonese;13;6,04;6;0;0;0;0;0;0;0;1;0;0
+C;Mckennie;Juventus;15;5,7;5,97;1;0;0;0;0;0;1;0;0;0
+C;Gyasi;Spezia;35;5,77;5,8;2;0;0;0;0;0;0;10;0;0
+C;Arslan;Udinese;29;5,86;5,91;1;0;0;0;0;0;0;3;0;0
+C;Galdames;Cremonese;12;5,88;6,12;1;0;0;0;0;0;1;2;0;0
+C;Miretti;Juventus;25;5,96;6,02;0;0;0;0;0;0;2;2;0;0
+C;Castagnetti;Cremonese;24;5,88;5,88;0;0;0;0;0;0;1;2;0;0
+C;Gonzalez J.;Lecce;34;5,96;5,91;1;0;0;0;0;0;1;8;0;1
+C;Grassi;Empoli;20;5,92;5,85;0;0;0;0;0;0;0;3;0;0
+C;Krunic;Milan;22;5,95;5,82;0;0;0;0;0;0;1;8;0;0
+C;Haas;Empoli;24;5,88;5,96;1;0;0;0;0;0;0;2;0;0
+C;Leris;Sampdoria;32;5,88;5,8;1;0;0;0;0;0;1;13;0;0
+C;Ekdal;Spezia;29;5,88;5,78;0;0;0;0;0;0;0;4;1;0
+C;Meite';Cremonese;30;5,82;5,77;0;0;0;0;0;0;1;5;0;0
+C;Duda;Verona;14;5,82;5,68;0;0;0;0;0;0;0;4;0;0
+C;Gaetano;Napoli;4;6,12;6,88;1;0;0;0;0;0;0;0;0;0
+C;Esposito Sa.;Spezia;14;5,75;5,82;1;0;0;0;0;0;0;3;1;0
+C;Lopez M.;Sassuolo;30;5,93;5,75;0;0;0;0;0;0;0;11;0;0
+C;Tameze;Verona;37;5,81;5,77;0;0;0;0;0;0;0;3;0;0
+C;Pobega;Milan;14;5,96;6,25;2;0;0;0;0;0;0;4;0;0
+C;Aebischer;Bologna;26;5,87;5,9;1;0;0;0;0;0;0;4;0;0
+C;Bohinen;Salernitana;19;5,82;5,82;0;0;0;0;0;0;0;0;0;0
+C;Terracciano F.;Verona;13;6,08;6,12;0;0;0;0;0;0;1;2;0;0
+C;Marcos Antonio;Lazio;12;6;6,25;1;0;0;0;0;0;1;2;0;0
+C;Ranocchia F.;Monza;12;6,17;6,42;1;0;0;0;0;0;0;1;0;0
+C;Normann;Lecce;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Paredes;Juventus;20;5,78;5,78;1;0;0;0;0;0;0;6;1;0
+C;Benassi;Cremonese;17;5,82;5,79;0;0;0;0;0;0;0;1;0;0
+C;Machin;Monza;21;5,9;5,9;0;0;0;0;0;0;2;4;0;0
+C;Vignato;Empoli;10;6;6,35;1;0;0;0;0;0;1;1;0;0
+C;Winks;Sampdoria;20;5,78;5,72;0;0;0;0;0;0;0;2;0;0
+C;Amrabat;Fiorentina;28;6;5,84;0;0;0;0;0;0;1;11;0;0
+C;Maleh;Lecce;21;5,81;5,76;0;0;0;0;0;0;1;5;0;0
+C;Basic;Lazio;14;6;6,18;1;0;0;0;0;0;0;2;0;0
+C;Volpato;Roma;6;6;6,67;1;0;0;0;0;0;1;0;0;0
+C;Vignato S.;Monza;2;6,25;6,75;0;0;0;0;0;0;1;0;0;0
+C;Fazzini;Empoli;15;5,9;5,8;0;0;0;0;0;0;0;4;0;0
+C;Rincon;Sampdoria;34;5,6;5,53;0;0;0;0;0;0;2;7;1;0
+C;Verre;Sampdoria;16;5,66;5,53;0;0;0;0;0;0;0;5;0;0
+C;Djuricic;Sampdoria;32;5,58;5,72;3;0;0;0;0;0;0;9;0;0
+C;Ndombele';Napoli;18;5,89;5,97;1;0;0;0;0;0;0;5;0;0
+C;Arthur Melo;Juventus;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Nicolussi Caviglia;Salernitana;11;5,73;5,91;1;0;0;0;0;0;0;2;0;0
+C;Majer;Lecce;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Henderson L.;Empoli;23;5,83;5,67;0;0;0;0;0;0;1;9;0;0
+C;Cuisance;Sampdoria;11;5,68;5,64;0;0;0;0;0;0;0;1;0;0
+C;Carles Perez;Roma;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Villar;Sampdoria;14;5,68;5,61;0;0;0;0;0;0;0;2;0;0
+C;Ceide;Sassuolo;14;5,89;5,96;0;0;0;0;0;0;1;0;0;0
+C;Pickel;Cremonese;33;5,7;5,64;1;0;0;0;0;0;0;8;1;0
+C;Bistrovic;Lecce;10;5,8;5,8;0;0;0;0;0;0;0;0;0;0
+C;Tahirovic;Roma;7;6;5,93;0;0;0;0;0;0;0;1;0;0
+C;Mazzitelli;Monza;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Miguel Veloso;Verona;21;5,93;5,69;0;0;0;0;0;0;0;6;0;1
+C;Zurkowski;Spezia;10;5,7;5,75;0;0;0;0;0;0;1;1;0;0
+C;Obiang;Sassuolo;13;5,88;5,81;0;0;0;0;0;0;0;2;0;0
+C;Askildsen;Lecce;15;5,7;5,6;0;0;0;0;0;0;0;3;0;0
+C;Escalante;Cremonese;9;5,61;5,5;0;0;0;0;0;0;0;0;1;0
+C;Kovalenko;Spezia;13;5,92;5,88;0;0;0;0;0;0;0;1;0;0
+C;Crnigoj;Salernitana;6;5,83;5,75;0;0;0;0;0;0;0;1;0;0
+C;Pyyhtia;Bologna;3;6;6,33;0;0;0;0;0;0;1;0;0;0
+C;Sulemana I.;Verona;13;5,92;5,77;0;0;0;0;0;0;0;4;0;0
+C;Camara Ma.;Roma;10;5,95;5,8;0;0;0;0;0;0;0;3;0;0
+C;Abildgaard;Verona;9;5,61;5,5;0;0;0;0;0;0;0;2;0;0
+C;Jajalo;Udinese;2;6;6;0;0;0;0;0;0;0;0;0;0
+C;Gagliardini;Inter;13;5,62;5,46;0;0;0;0;0;0;0;3;1;0
+C;Valoti;Monza;7;5,71;5,71;0;0;0;0;0;0;0;1;0;0
+C;Bakayoko;Milan;1;5,5;5,5;0;0;0;0;0;0;0;0;0;0
+C;Maggiore;Salernitana;15;5,8;5,73;0;0;0;0;0;0;0;2;0;0
+C;Asllani;Inter;13;5,92;5,85;0;0;0;0;0;0;0;2;0;0
+C;Sabiri;Sampdoria;18;5,78;5,81;2;0;0;2;1;1;0;5;0;0
+C;Zerbin;Napoli;4;5,75;5,62;0;0;0;0;0;0;0;1;0;0
+C;Ilkhan;Sampdoria;6;5,83;5,75;0;0;0;0;0;0;0;1;0;0
+C;Paoletti;Sampdoria;7;5,79;5,71;0;0;0;0;0;0;0;1;0;0
+C;Cipot;Spezia;5;6;6;0;0;0;0;0;0;0;0;0;0
+C;Malagrida;Sampdoria;3;6;5,83;0;0;0;0;0;0;0;2;0;0
+C;D'alessandro;Monza;6;6,25;6,08;0;0;0;0;0;0;0;2;0;0
+C;Diawara;Roma;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Capezzi;Salernitana;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Baez;Cremonese;2;5,75;5,75;0;0;0;0;0;0;0;0;0;0
+C;Molina S.;Monza;5;5,5;5,4;0;0;0;0;0;0;0;1;0;0
+C;Barberis;Monza;5;5,6;5,8;0;0;0;0;0;0;1;0;0;0
+C;Crociata;Empoli;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Valzania;Cremonese;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Scozzarella;Monza;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Kingsley;Bologna;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Vieira;Torino;15;5,63;5,53;0;0;0;0;0;0;0;3;0;0
+C;Agoume;Inter;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Demme;Napoli;2;5,75;5,75;0;0;0;0;0;0;0;0;0;0
+C;Horvath;Torino;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Bartolomei;Cremonese;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Leo' Sena;Spezia;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Darboe;Roma;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Urbanski;Bologna;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Bertini;Lazio;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Cortinovis;Verona;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Cavion;Salernitana;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Kornvig;Spezia;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Hongla;Verona;8;5,69;5,44;0;0;0;0;0;0;0;4;0;0
+C;Romero L.;Lazio;2;6,25;7,75;1;0;0;0;0;0;0;0;0;0
+C;Bianco;Fiorentina;3;6,17;6;0;0;0;0;0;0;0;1;0;0
+C;Yepes;Sampdoria;4;5,25;5;0;0;0;0;0;0;0;2;0;0
+C;Sher;Spezia;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Vranckx;Milan;5;5,9;5,8;0;0;0;0;0;0;0;1;0;0
+C;Nguiamba;Spezia;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Praszelik;Verona;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Trimboli;Sampdoria;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Pafundi;Udinese;2;5,75;5,75;0;0;0;0;0;0;0;0;0;0
+C;Milanese;Cremonese;1;5,5;5,5;0;0;0;0;0;0;0;0;0;0
+C;Tenkorang;Cremonese;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Bjorkengren;Lecce;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Helgason;Lecce;7;5,79;5,79;0;0;0;0;0;0;0;0;0;0
+C;Listkowski;Lecce;4;5,88;5,88;0;0;0;0;0;0;0;0;0;0
+C;Adli;Milan;4;5,62;5,5;0;0;0;0;0;0;0;1;0;0
+C;Casadei;Inter;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Hrustic;Verona;5;5,4;5,4;0;0;0;0;0;0;0;0;0;0
+C;Bondo;Monza;2;5,75;5,5;0;0;0;0;0;0;0;1;0;0
+C;Samek;Lecce;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Degli Innocenti;Empoli;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Acella;Cremonese;1;6;6;0;0;0;0;0;0;0;0;0;0
+C;Tripi;Roma;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;D'andrea;Sassuolo;5;6;6,2;0;0;0;0;0;0;1;0;0;0
+C;Ellertsson;Spezia;5;5,8;5,7;0;0;0;0;0;0;0;3;0;0
+C;Garbett;Torino;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Carboni V.;Inter;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Faticanti;Roma;0;0;0;0;0;0;0;0;0;0;0;0;0
+C;Gineitis;Torino;2;6;5,5;0;0;0;0;0;0;0;2;0;0
+C;Barrenechea;Juventus;3;5,5;5,5;0;0;0;0;0;0;0;0;0;0
+A;Osimhen;Napoli;32;6,73;9,14;26;0;0;3;2;1;4;4;0;0
+A;Martinez L.;Inter;37;6,42;8,16;21;0;0;2;1;1;6;3;0;0
+A;Dybala;Roma;25;6,64;8,24;12;0;0;5;5;0;6;4;0;0
+A;Berardi;Sassuolo;24;6,58;8,1;12;0;0;8;7;1;7;7;0;0
+A;Rafael Leao;Milan;34;6,47;7,9;15;0;0;0;0;0;7;5;1;0
+A;Lookman;Atalanta;30;6,47;7,92;13;0;0;3;3;0;6;3;0;0
+A;Dia;Salernitana;33;6,27;7,82;16;0;0;1;1;0;5;4;0;0
+A;Sanabria;Torino;31;6,27;7,52;12;0;0;1;1;0;4;4;0;0
+A;Immobile;Lazio;29;6,22;7,48;12;0;0;5;4;1;5;3;0;0
+A;Scamacca;Sassuolo;0;0;0;0;0;0;0;0;0;0;0;0;0
+A;Lukaku;Inter;25;6,24;7,66;10;0;0;2;2;0;6;1;0;0
+A;Giroud;Milan;33;6,24;7,42;13;0;0;3;3;0;4;6;1;0
+A;Nzola;Spezia;31;6,19;7,39;13;0;0;3;3;0;2;8;0;0
+A;Arnautovic;Bologna;21;6,38;7,74;10;0;0;3;3;0;1;5;0;0
+A;Vlahovic;Juventus;25;6,06;7,16;10;0;0;3;2;1;1;1;0;0
+A;Cabral;Fiorentina;21;6,21;7,31;8;0;0;2;2;0;1;4;0;0
+A;Lauriente';Sassuolo;28;6,39;7,18;7;0;0;1;1;0;6;8;1;0
+A;Dzeko;Inter;28;6,23;7,25;9;0;0;0;0;0;3;3;0;0
+A;Hojlund;Atalanta;30;6,12;7,07;9;0;0;0;0;0;2;1;0;0
+A;Beto;Udinese;33;6,06;6,97;10;0;0;1;1;0;1;2;0;0
+A;Abraham;Roma;34;6,19;6,96;8;0;0;0;0;0;3;2;0;0
+A;Cambiaghi;Empoli;25;6,24;6,9;6;0;0;0;0;0;1;3;1;0
+A;Ciofani D.;Cremonese;22;6,11;7,05;8;0;0;4;3;1;0;1;0;0
+A;Milik;Juventus;27;6,09;6,74;7;0;0;1;0;1;1;1;1;0
+A;Di Maria;Juventus;25;6,14;6,72;4;0;0;1;1;0;4;1;1;0
+A;Boga;Atalanta;18;6,25;6,86;2;0;0;0;0;0;5;0;0;0
+A;Gonzalez N.;Fiorentina;22;6,11;6,86;6;0;0;2;2;0;0;3;0;0
+A;Simeone;Napoli;12;6,29;7,33;4;0;0;0;0;0;1;1;0;0
+A;Pedro;Lazio;36;6,12;6,53;4;0;0;0;0;0;3;1;0;0
+A;Zapata D.;Atalanta;24;5,96;6,27;2;0;0;0;0;0;2;1;0;0
+A;Ceesay;Lecce;30;5,97;6,53;6;0;0;1;1;0;0;2;0;0
+A;Mota;Monza;29;6,09;6,64;5;0;0;0;0;0;2;2;0;0
+A;Petagna;Monza;31;6,05;6,56;4;0;0;1;1;0;5;2;0;0
+A;Caprari;Monza;36;6,03;6,4;5;0;0;1;1;0;2;7;0;0
+A;Karamoh;Torino;15;6,1;6,83;4;0;0;0;0;0;0;2;0;0
+A;Kouame';Fiorentina;28;6,11;6,62;4;0;0;0;0;0;5;5;0;0
+A;Gabbiadini;Sampdoria;35;5,86;6,43;7;0;0;0;0;0;2;6;0;0
+A;Sansone;Bologna;15;6,27;7,13;4;0;0;0;0;0;2;2;0;0
+A;Deulofeu;Udinese;15;6,37;7,07;2;0;0;0;0;0;5;1;0;0
+A;Barrow;Bologna;29;5,93;6,36;3;0;0;0;0;0;5;3;0;0
+A;Lozano;Napoli;29;6,07;6,43;3;0;0;1;1;0;3;3;0;0
+A;Okereke;Cremonese;33;5,94;6,52;7;0;0;1;1;0;0;4;0;0
+A;Dessers;Cremonese;26;6,02;6,62;6;0;0;1;0;1;2;3;0;0
+A;Muriel;Atalanta;25;6,02;6,42;3;0;0;1;1;0;3;0;2;0
+A;Thauvin;Udinese;11;5,68;5,68;0;0;0;0;0;0;0;1;0;0
+A;Piatek;Salernitana;32;5,86;6,28;4;0;0;1;1;0;4;5;0;0
+A;Caputo;Empoli;36;5,88;6,44;6;0;0;2;2;0;3;1;0;0
+A;Jovic;Fiorentina;27;5,98;6,56;6;0;0;1;0;1;2;3;0;0
+A;Sanchez;Inter;0;0;0;0;0;0;0;0;0;0;0;0;0
+A;Zirkzee;Bologna;18;6,06;6,44;2;0;0;0;0;0;2;2;0;0
+A;Tsadjout;Cremonese;18;5,92;6,44;3;0;0;0;0;0;1;1;0;0
+A;Correa;Inter;23;5,93;6,35;3;0;0;0;0;0;1;1;0;0
+A;Kean;Juventus;23;5,89;6,52;6;0;0;0;0;0;0;5;1;0
+A;Brekalo;Fiorentina;6;6,08;6;0;0;0;0;0;0;0;1;0;0
+A;Colombo;Lecce;26;5,94;6,37;5;0;0;2;1;1;1;4;0;0
+A;Banda;Lecce;32;6,05;6,17;2;0;0;0;0;0;1;6;0;0
+A;Ilicic;Atalanta;0;0;0;0;0;0;0;0;0;0;0;0;0
+A;Rebic;Milan;18;5,86;6,39;3;0;0;0;0;0;2;4;0;0
+A;Verde;Spezia;22;5,93;6,32;3;0;0;1;1;0;0;1;0;0
+A;Di Francesco F.;Lecce;34;5,93;6,1;2;0;0;0;0;0;2;5;0;0
+A;Nestorovski;Udinese;11;5,95;6,55;2;0;0;0;0;0;1;3;0;0
+A;Raspadori;Napoli;23;5,89;6,22;2;0;0;0;0;0;2;1;0;0
+A;Bonazzoli;Salernitana;21;6;6,36;2;0;0;0;0;0;2;1;0;0
+A;Pinamonti;Sassuolo;32;5,67;6,06;5;0;0;1;1;0;0;3;1;0
+A;Success;Udinese;30;5,93;6,17;1;0;0;0;0;0;6;4;0;0
+A;Solbakken;Roma;9;5,94;6,39;1;0;0;0;0;0;2;2;0;0
+A;Piccoli;Empoli;16;5,84;6,22;2;0;0;0;0;0;0;0;0;0
+A;Lammers;Sampdoria;31;5,76;6;2;0;0;0;0;0;2;1;0;0
+A;Satriano;Empoli;26;5,87;6,08;2;0;0;0;0;0;1;4;0;0
+A;Djuric;Verona;24;5,98;6,06;1;0;0;0;0;0;0;3;0;0
+A;Botheim;Salernitana;17;5,85;6,15;1;0;0;0;0;0;3;2;0;0
+A;Defrel;Sassuolo;25;5,74;5,96;2;0;0;0;0;0;1;3;0;0
+A;Origi;Milan;21;5,74;6,05;2;0;0;0;0;0;1;1;0;0
+A;Jese';Sampdoria;7;6,07;6,64;1;0;0;0;0;0;1;0;0;0
+A;Gaich;Verona;14;5,89;6,11;2;0;0;0;0;0;0;2;0;1
+A;Soule';Juventus;7;6,14;6,57;1;0;0;0;0;0;0;0;0;0
+A;Buonaiuto;Cremonese;23;5,96;6,04;1;0;0;1;1;0;0;3;0;0
+A;Ngonge;Verona;13;6,04;6,73;3;0;0;0;0;0;1;2;0;0
+A;Belotti;Roma;22;5,8;5,75;0;0;0;1;0;1;2;0;0;0
+A;Quagliarella;Sampdoria;18;5,97;6,14;1;0;0;0;0;0;1;2;0;0
+A;Pellegri;Torino;11;6;6,5;2;0;0;0;0;0;1;3;0;0
+A;Shomurodov;Spezia;17;5,76;5,97;1;0;0;0;0;0;1;2;0;0
+A;Kallon;Verona;22;5,84;6;1;0;0;0;0;0;1;1;0;0
+A;Alvarez A.;Sassuolo;10;5,95;6,35;1;0;0;0;0;0;1;1;0;0
+A;Lasagna;Verona;24;5,77;5,9;1;0;0;0;0;0;1;2;0;0
+A;Zanimacchia;Cremonese;14;5,89;5,82;0;0;0;0;0;0;0;2;0;0
+A;Di Mariano;Lecce;0;0;0;0;0;0;0;0;0;0;0;0;0
+A;Henry;Verona;15;5,9;6,17;2;0;0;0;0;0;0;4;0;0
+A;Gondo;Cremonese;0;0;0;0;0;0;0;0;0;0;0;0;0
+A;Zaza;Torino;0;0;0;0;0;0;0;0;0;0;0;0;0
+A;Strelec;Spezia;6;6,08;6,08;0;0;0;0;0;0;0;0;0;0
+A;Seck;Torino;9;6,06;6,06;0;0;0;0;0;0;0;0;0;0
+A;Ounas;Napoli;0;0;0;0;0;0;0;0;0;0;0;0;0
+A;Ribery;Salernitana;1;6;6;0;0;0;0;0;0;0;0;0;0
+A;Ibrahimovic;Milan;4;5,75;6,5;1;0;0;1;1;0;0;0;0;0
+A;Antiste;Sassuolo;2;6;7,5;1;0;0;0;0;0;0;0;0;0
+A;Afena-Gyan;Cremonese;20;5,62;5,52;0;0;0;0;0;0;0;4;0;0
+A;Gytkjaer;Monza;15;5,73;5,73;1;0;0;1;0;1;0;0;0;0
+A;Destro;Empoli;10;5,7;5,9;1;0;0;0;0;0;0;3;0;0
+A;Pjaca;Empoli;13;5,85;5,81;0;0;0;0;0;0;0;1;0;0
+A;Di Carmine;Cremonese;1;6;6;0;0;0;0;0;0;0;0;0;0
+A;Cisse';Atalanta;0;0;0;0;0;0;0;0;0;0;0;0;0
+A;Valencia D.;Salernitana;6;5,67;5,58;0;0;0;0;0;0;0;1;0;0
+A;Strizzolo;Cremonese;0;0;0;0;0;0;0;0;0;0;0;0;0
+A;Edera;Torino;0;0;0;0;0;0;0;0;0;0;0;0;0
+A;Pussetto;Sampdoria;4;5,62;5,5;0;0;0;0;0;0;0;1;0;0
+A;Moro;Lazio;0;0;0;0;0;0;0;0;0;0;0;0;0
+A;Oddei;Sassuolo;0;0;0;0;0;0;0;0;0;0;0;0;0
+A;Kokorin;Fiorentina;0;0;0;0;0;0;0;0;0;0;0;0;0
+A;Braaf;Verona;6;5,58;5,5;0;0;0;0;0;0;0;1;0;0
+A;Raimondo;Bologna;0;0;0;0;0;0;0;0;0;0;0;0;0
+A;Kristoffersen;Salernitana;1;5,5;5,5;0;0;0;0;0;0;0;0;0;0
+A;Cancellieri;Lazio;6;5,83;5,83;0;0;0;0;0;0;0;4;0;0
+A;Kaio Jorge;Juventus;0;0;0;0;0;0;0;0;0;0;0;0;0
+A;De Luca;Sampdoria;1;5,5;5,5;0;0;0;0;0;0;0;0;0;0
+A;Podgoreanu;Spezia;0;0;0;0;0;0;0;0;0;0;0;0;0
+A;Lazetic;Milan;0;0;0;0;0;0;0;0;0;0;1;0;0
+A;Mikael;Salernitana;0;0;0;0;0;0;0;0;0;0;0;0;0
+A;Voelkerling Persson;Lecce;3;5,83;5,83;0;0;0;0;0;0;0;0;0;0
+A;Rodriguez P.;Lecce;3;6;6;0;0;0;0;0;0;0;0;0;0
+A;Sanca;Spezia;1;6;6;0;0;0;0;0;0;0;0;0;0
+A;Montevago;Sampdoria;5;5,7;5,6;0;0;0;0;0;0;0;1;0;0
+A;Krollis;Spezia;0;0;0;0;0;0;0;0;0;0;0;0;0
+A;Vivaldo;Udinese;1;6;6;0;0;0;0;0;0;0;0;0;0
+A;Vorlicky;Atalanta;1;6;6;0;0;0;0;0;0;0;0;0;0
