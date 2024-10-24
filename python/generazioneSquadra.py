@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
 import pandas as pd
 from flask_cors import CORS
+import os
 
 app = Flask(__name__)
 CORS(app)
@@ -71,5 +72,6 @@ def seleziona_squadra():
 
     return jsonify(squadra_fantacalcio.to_dict(orient='records'))
 
-if __name__ == '__main__':
-    app.run(debug=True)
+if __name__ == "__main__":
+    port = int(os.environ.get('PORT', 5000))  # Usa la porta definita da Render o 5000 di default
+    app.run(host="0.0.0.0", port=port, debug=True)
