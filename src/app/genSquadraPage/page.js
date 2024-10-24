@@ -63,7 +63,7 @@ export default function Home() {
         <Header />
         <div className="flex flex-col items-center justify-center">
           <h1 className="mt-8 mb-8 text-2xl md:text-3xl">
-            Seleziona Squadra Fantacalcio
+            Crea la tua squadra
           </h1>
           <form
             onSubmit={handleSubmit}
@@ -117,7 +117,7 @@ export default function Home() {
               onChange={handleChange}
               className="shadow-input shadow-lg rounded-lg p-4"
             />
-            <button type="submit" className="mb-8 text-2xl border border-black p-2 rounded-xl hover:bg-[#00FF26] hover:duration-500 duration-500 md:text-3xl">
+            <button type="submit" className="mb-8 text-2xl border border-black p-2 rounded-xl hover:bg-white hover:duration-500 duration-500 md:text-3xl">
               Calcola Squadra
             </button>
           </form>
