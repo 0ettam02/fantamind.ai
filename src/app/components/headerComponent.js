@@ -38,9 +38,9 @@ const handleClick = () => {
         <GiHamburgerMenu className={`${!visible ? "opacity-100" : "opacity-0 hidden"}  w-10 h-10 mb-5 md:opacity-0 md:hidden animate-jump-in animate-duration-1000`} onClick={handleClick}/>
         <FiX className={`${!visible ? "opacity-0 hidden md:block" : "opacity-100"}  w-10 h-10 mb-5 md:opacity-0 md:hidden animate-jump-in animate-duration-1000`} onClick={handleClick}/>
         <Link href={"/"} className={`${!visible ? "opacity-0 hidden md:block" : "opacity-100"} mr-10 md:opacity-100 mt-10 mb-12 ml-10 animate-fade-right animate-duration-1000`}>home</Link>
-        <Link href={"/chiSiamo"} className={`${!visible ? "opacity-0 hidden md:block" : "opacity-100"}  mr-10 md:opacity-100 mt-10 mb-12 ml-10 animate-fade-right animate-duration-1000 animate-delay-500`}>chi siamo</Link>
-        <Link href={"/contatti"} className={`${!visible ? "opacity-0 hidden md:block" : "opacity-100"}  mr-10 md:opacity-100 mt-10 mb-12 ml-10 animate-fade-right animate-duration-1000 animate-delay-1000`}>contatti</Link>
-        <Link href={"/ricerca"} className={`${!visible ? "opacity-0 hidden md:block" : "opacity-100"}  mr-10 md:opacity-100 mt-10 mb-12 ml-10 animate-fade-right animate-duration-1000 animate-delay-[1500ms]`}>ricerca</Link>
+        <Link href={"/manutenzionePage"} className={`${!visible ? "opacity-0 hidden md:block" : "opacity-100"}  mr-10 md:opacity-100 mt-10 mb-12 ml-10 animate-fade-right animate-duration-1000 animate-delay-500`}>chi siamo</Link>
+        <Link href={"/manutenzionePage"} className={`${!visible ? "opacity-0 hidden md:block" : "opacity-100"}  mr-10 md:opacity-100 mt-10 mb-12 ml-10 animate-fade-right animate-duration-1000 animate-delay-1000`}>contatti</Link>
+        <Link href={"/manutenzionePage"} className={`${!visible ? "opacity-0 hidden md:block" : "opacity-100"}  mr-10 md:opacity-100 mt-10 mb-12 ml-10 animate-fade-right animate-duration-1000 animate-delay-[1500ms]`}>ricerca</Link>
       </div>
       
     </header>

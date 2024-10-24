@@ -28,7 +28,7 @@ export default function HomePage() {
           click di distanza
         </h1>
       </Link>      
-      <Link href={"/"} className="bg-white shadow-2xl rounded-lg p-6 text-center">
+      <Link href={"/manutenzionePage"} className="bg-white shadow-2xl rounded-lg p-6 text-center">
         <DotLottieReact
           src="https://lottie.host/9042ee07-d5f1-4d2b-ae6b-ef845cd74b99/can1IgK5Zo.json"
           loop
@@ -43,7 +43,7 @@ export default function HomePage() {
           acquisti intelligenti
         </h1>
       </Link>      
-      <Link href={"/"} className="bg-white shadow-2xl rounded-lg p-6 text-center">
+      <Link href={"/manutenzionePage"} className="bg-white shadow-2xl rounded-lg p-6 text-center">
         <DotLottieReact
           src="https://lottie.host/58af4472-1b37-4216-8671-6d22510d103a/Svk93zL0hb.json"
           loop
