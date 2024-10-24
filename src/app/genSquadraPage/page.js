@@ -37,7 +37,7 @@ export default function Home() {
     setResult(null);
 
     try {
-      const response = await fetch("http://localhost:5000/seleziona_squadra", {
+      const response = await fetch("http://35.160.120.126:5000/seleziona_squadra", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
