@@ -22,6 +22,7 @@ const handleClick = () => {
 
   return (
     <header className={`header ${ruda.className} flex flex-col items-center md:items-start md:flex-row md:ml-[5em] `}>
+      <Link href={"/"}>
       <div className="titolo flex">
         <Image
           src="/logo.png"
@@ -32,6 +33,7 @@ const handleClick = () => {
         />
         <h1 className="h1Titolo mt-8 mb-10 text-xl md:text-3xl">fantamind.ai</h1>
       </div>
+      </Link>
       <div className={`sezioneInfo flex flex-col items-center  text-lg md:flex-row ${!visible ? "none" : "bg-[#00FF26] w-full md:bg-transparent md:text-black"}`}>
         <GiHamburgerMenu className={`${!visible ? "opacity-100" : "opacity-0 hidden"}  w-10 h-10 mb-5 md:opacity-0 md:hidden animate-jump-in animate-duration-1000`} onClick={handleClick}/>
         <FiX className={`${!visible ? "opacity-0 hidden md:block" : "opacity-100"}  w-10 h-10 mb-5 md:opacity-0 md:hidden animate-jump-in animate-duration-1000`} onClick={handleClick}/>

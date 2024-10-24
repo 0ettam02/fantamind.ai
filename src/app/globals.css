@@ -26,10 +26,10 @@ body {
   }
 }
 
-.hidden-element{
-  
+.even-columns:nth-child(even) {
+  @apply bg-gray-300;
 }
 
-@media (min-width:0){
-  display: 
+.odd-columns:nth-child(odd) {
+  @apply bg-white;
 }
