@@ -12,9 +12,9 @@ const ruda = Ruda({
 export default function Manutenzione(){
     return(
         <>
-        <div className={`${ruda.className} h-screen`}>
+        <div className={`${ruda.className} flex flex-col h-screen`}>
         <Header />
-        <div className="flex items-center justify-center text-3xl mt-8 md:text-8xl">
+        <div className="flex flex-grow items-center justify-center text-3xl mt-8 md:text-8xl">
         <h1 className="text-center">Il sito è in <span className="bg-[#00FF26]">manutenzione</span>, ci scusiamo per il disagio</h1>
         </div>
         <DotLottieReact
