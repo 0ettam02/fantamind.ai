@@ -73,7 +73,7 @@ def seleziona_squadra():
     return jsonify(squadra_fantacalcio.to_dict(orient='records'))
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 10000))
-    app.run(host="0.0.0.0", port=port, debug=True)
-    # app.run(debug=True)
+    #port = int(os.environ.get("PORT", 10000))
+    #app.run(host="0.0.0.0", port=port, debug=True)
+    app.run(debug=True)
     
