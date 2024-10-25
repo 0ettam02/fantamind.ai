@@ -37,7 +37,7 @@ export default function Home() {
     setResult(null);
 
     try {
-      const response = await fetch("http://https://fantamind-ai.onrender.com:5000/seleziona_squadra", {
+      const response = await fetch("https://fantamind-ai.onrender.com/seleziona_squadra", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
