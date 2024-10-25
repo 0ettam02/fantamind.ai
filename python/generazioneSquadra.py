@@ -73,5 +73,5 @@ def seleziona_squadra():
     return jsonify(squadra_fantacalcio.to_dict(orient='records'))
 
 if __name__ == "__main__":
-    port = int(os.environ.get('PORT', 5000))  # Usa la porta definita da Render o 5000 di default
+    port = int(os.environ.get("PORT", 10000))
     app.run(host="0.0.0.0", port=port, debug=True)
