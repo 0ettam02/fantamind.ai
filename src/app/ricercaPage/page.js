@@ -36,7 +36,7 @@ export default function Ricerca() {
         <p className="text-center max-w-[40em]">
           La nostra startup di machine learning si concentra su tre aree
           principali: genrazione di una squadra, sviluppo di modelli predittivi,
-          e miglioramento continuo dell'intelligenza artificiale.
+          e miglioramento continuo dell&apos;intelligenza artificiale.
         </p>
         </div>
       </div>
