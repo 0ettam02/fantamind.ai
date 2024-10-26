@@ -41,7 +41,7 @@ export default function Header() {
         className={`sezioneInfo flex flex-col items-center  text-lg md:flex-row ${
           !visible
             ? "none"
-            : "bg-[#00FF26] w-full md:bg-transparent md:text-black"
+            : "bg-green-300 w-full md:bg-transparent md:text-black"
         }`}
       >
         <GiHamburgerMenu
@@ -62,7 +62,7 @@ export default function Header() {
             !visible ? "opacity-0 hidden md:block" : "opacity-100"
           } mr-10 md:opacity-100 mt-10 mb-12 ml-10 animate-fade-right animate-duration-1000`}
         >
-          home
+          Home
         </Link>
         <Link
           href={"/manutenzionePage"}
@@ -70,7 +70,7 @@ export default function Header() {
             !visible ? "opacity-0 hidden md:block" : "opacity-100"
           }  mr-10 md:opacity-100 mt-10 mb-12 ml-10 animate-fade-right animate-duration-1000 animate-delay-500`}
         >
-          chi siamo
+          Chi siamo
         </Link>
         <Link
           href={"/manutenzionePage"}
@@ -78,15 +78,15 @@ export default function Header() {
             !visible ? "opacity-0 hidden md:block" : "opacity-100"
           }  mr-10 md:opacity-100 mt-10 mb-12 ml-10 animate-fade-right animate-duration-1000 animate-delay-1000`}
         >
-          contatti
+          Contatti
         </Link>
         <Link
-          href={"/manutenzionePage"}
+          href={"/ricercaPage"}
           className={`${
             !visible ? "opacity-0 hidden md:block" : "opacity-100"
           }  mr-10 md:opacity-100 mt-10 mb-12 ml-10 animate-fade-right animate-duration-1000 animate-delay-[1500ms]`}
         >
-          ricerca
+          Ricerca
         </Link>
       </div>
     </header>

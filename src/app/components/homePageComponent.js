@@ -26,7 +26,7 @@ export default function HomePage() {
           <h1 className={`${ruda.className} text-2xl md:text-4xl`}>
             La squadra
             <br />
-            <span className="bg-[#00FF26]">perfetta</span> è a un
+            <span className="bg-green-300">perfetta</span> è a un
             <br />
             click di distanza
           </h1>
@@ -44,7 +44,7 @@ export default function HomePage() {
           <h1 className={`${ruda.className} text-2xl md:text-4xl`}>
             Non più scelte
             <br />
-            <span className="bg-[#00FF26]">avventate</span>, solo
+            <span className="bg-green-300">avventate</span>, solo
             <br />
             acquisti intelligenti
           </h1>
@@ -60,11 +60,11 @@ export default function HomePage() {
             className="w-full h-48 mb-4"
           />
           <h1 className={`${ruda.className} text-2xl md:text-4xl`}>
-            Usa la <span className="bg-[#00FF26]">statistica</span>,
+            Usa la <span className="bg-green-300">statistica</span>,
             <br />
             per trasformare le tue
             <br />
-            intuizioni in <span className="bg-[#00FF26]">vittorie</span>
+            intuizioni in <span className="bg-green-300">vittorie</span>
           </h1>
         </Link>
       </div>

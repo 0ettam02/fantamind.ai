@@ -151,7 +151,7 @@ export default function Home() {
             </div>
             <button
               type="submit"
-              className="mb-8 text-2xl border border-black p-2 rounded-xl hover:bg-white hover:duration-500 duration-500 md:text-3xl"
+              className="mb-8 text-2xl border border-black p-2 rounded-xl hover:bg-green-300 hover:duration-500 duration-500 md:text-3xl"
             >
               Calcola Squadra
             </button>

@@ -7,5 +7,5 @@ const ruda = Ruda({
 });
 
 export default function Footer() {
-  return <div className={`${ruda.className} footer mt-20 p-6 flex flex-col items-center bg-[#00FF26] text-black`}>©2024 fantamind.ai, Inc. o società affiliate</div>;
+  return <div className={`${ruda.className} footer mt-20 p-6 flex flex-col items-center bg-green-300 text-black`}>©2024 fantamind.ai, Inc. o società affiliate</div>;
 }
