@@ -16,7 +16,7 @@ export default function Manutenzione() {
         <Header />
         <div className="flex flex-grow items-center justify-center text-3xl mt-8 md:text-8xl">
           <h1 className="text-center">
-            Il sito è in <span className="bg-[#00FF26]">manutenzione</span>, ci
+            Il sito è in <span className="bg-green-300">manutenzione</span>, ci
             scusiamo per il disagio
           </h1>
         </div>

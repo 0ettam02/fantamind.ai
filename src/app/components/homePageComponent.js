@@ -12,7 +12,8 @@ const ruda = Ruda({
 export default function HomePage() {
   return (
     <>
-      <div className="grid grid-row-1 gap-4 place-items-center items-center text-black md:grid-cols-3">
+    <h1 className={`${ruda.className} text-center text-2xl mb-4 md:mb-8 md:text-4xl`}>Prova i nostri servizi</h1>
+      <div className="grid grid-row-1 gap-4 place-items-center items-center text-black md:grid-cols-2">
         <Link
           href={"/genSquadraPage"}
           className="bg-white shadow-2xl rounded-lg p-6 text-center"
@@ -24,33 +25,11 @@ export default function HomePage() {
             className="w-full h-48 mb-4"
           />
           <h1 className={`${ruda.className} text-2xl md:text-4xl`}>
-            La squadra
-            <br />
-            <span className="bg-green-300">perfetta</span> è a un
-            <br />
-            click di distanza
+            Un generatore<br/>di squadre<br/><span className="bg-green-300">intelligente</span>
           </h1>
         </Link>
         <Link
-          href={"/manutenzionePage"}
-          className="bg-white shadow-2xl rounded-lg p-6 text-center"
-        >
-          <DotLottieReact
-            src="https://lottie.host/9042ee07-d5f1-4d2b-ae6b-ef845cd74b99/can1IgK5Zo.json"
-            loop
-            autoplay
-            className="w-full h-48 mb-4"
-          />
-          <h1 className={`${ruda.className} text-2xl md:text-4xl`}>
-            Non più scelte
-            <br />
-            <span className="bg-green-300">avventate</span>, solo
-            <br />
-            acquisti intelligenti
-          </h1>
-        </Link>
-        <Link
-          href={"/manutenzionePage"}
+          href={"/analisiPredittivaPage"}
           className="bg-white shadow-2xl rounded-lg p-6 text-center"
         >
           <DotLottieReact
@@ -60,11 +39,7 @@ export default function HomePage() {
             className="w-full h-48 mb-4"
           />
           <h1 className={`${ruda.className} text-2xl md:text-4xl`}>
-            Usa la <span className="bg-green-300">statistica</span>,
-            <br />
-            per trasformare le tue
-            <br />
-            intuizioni in <span className="bg-green-300">vittorie</span>
+            Usa l&apos;analisi <span className="bg-green-300">predittiva</span><br/>per trasformare le<br/>tue intuizini in vittorie
           </h1>
         </Link>
       </div>
