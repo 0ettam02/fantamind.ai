@@ -163,38 +163,54 @@ CORS(app)
 dataset1 = pd.read_csv("datasets/datasetGol.csv", sep=";")
 dataset2 = pd.read_csv("datasets/Statistiche_Fantacalcio_Stagione_2024_25.csv", sep=";")
 
-# Conversione dei dati numerici
-dataset1["Mv"] = dataset1["Mv"].str.replace(",", ".").astype(float)
-dataset1["Fm"] = dataset1["Fm"].str.replace(",", ".").astype(float)
-dataset2["Mv"] = dataset2["Mv"].str.replace(",", ".").astype(float)
-dataset2["Fm"] = dataset2["Fm"].str.replace(",", ".").astype(float)
+# Funzione per la conversione dei dati
+def convert_columns(df, columns):
+    for col in columns:
+        if col in df.columns:
+            df[col] = pd.to_numeric(df[col].str.replace(",", "."), errors='coerce')  # Converti e gestisci errori
+        else:
+            print(f"Colonna {col} non trovata nel DataFrame.")
+    return df
 
-# Definizione delle variabili e suddivisione dei dati
-X = dataset1[["Gf", "Mv", "Fm", "Rc"]]
-y = dataset1['Ass']
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+# Conversione delle colonne necessarie
+columns_to_convert = ["Mv", "Fm"]
+dataset1 = convert_columns(dataset1, columns_to_convert)
+# Assicurati che le colonne 'Gf' e 'Rc' siano già numeriche o convertile se necessario
 
-# Standardizzazione
-ss = StandardScaler()
-X_train = ss.fit_transform(X_train)
-X_test = ss.transform(X_test)
+# Verifica la presenza delle colonne prima di creare X
+required_columns = ["Gf", "Mv", "Fm", "Rc"]
+missing_columns = [col for col in required_columns if col not in dataset1.columns]
 
-# Modello di regressione lineare
-model = LinearRegression()
-model.fit(X_train, y_train)
+if missing_columns:
+    print(f"Le seguenti colonne sono mancanti nel dataset1: {missing_columns}")
+else:
+    # Definizione delle variabili e suddivisione dei dati
+    X = dataset1[["Gf", "Mv", "Fm", "Rc"]]
+    y = dataset1['Ass']
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
 
-# Valutazione del modello
-y_pred = model.predict(X_test)
-mse = mean_squared_error(y_test, y_pred)
-print("Mean Squared Error:", mse)
+    # Standardizzazione
+    ss = StandardScaler()
+    X_train = ss.fit_transform(X_train)
+    X_test = ss.transform(X_test)
 
-# Funzione per la previsione degli assist
-def predict_assist(player_data):
-    if player_data.empty:
-        return None
-    player_data_normalized = ss.transform(player_data[["Gf", "Mv", "Fm", "Rc"]])
-    predicted_assist = model.predict(player_data_normalized).mean()
-    return predicted_assist
+    # Modello di regressione lineare
+    model = LinearRegression()
+    model.fit(X_train, y_train)
+
+    # Valutazione del modello
+    y_pred = model.predict(X_test)
+    mse = mean_squared_error(y_test, y_pred)
+    print("Mean Squared Error:", mse)
+
+    # Funzione per la previsione degli assist
+    def predict_assist(player_data):
+        if player_data.empty:
+            print("No player data found.")
+            return None  
+        player_data_normalized = ss.transform(player_data[["Gf", "Mv", "Fm", "Rc"]])
+        predicted_assist = model.predict(player_data_normalized).mean()
+        return predicted_assist
 
 # Funzione per trovare un giocatore simile
 def find_similar_player(player_name):
