@@ -10,7 +10,7 @@ const ruda = Ruda({
   weight: ["400"],
 });
 
-export default function Home() {
+export default function GenerazioneSquadra() {
   const [result, setResult] = useState(null);
   const [error, setError] = useState("");
 
