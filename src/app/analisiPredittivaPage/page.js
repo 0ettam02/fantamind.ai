@@ -1,42 +1,38 @@
-"use client"
+"use client";
 import Header from "../components/headerComponent";
 import Footer from "../components/footerComponent";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import Link from "next/link";
 import { Ruda } from "next/font/google";
+import Card from "../components/cardComponent";
 
 const ruda = Ruda({
   subsets: ["latin"],
   weight: ["400"],
 });
 
-export default function AnalisiPredittive(){
-    return(
-        <>
-        <Header />
-      <div className="grid grid-row-1 gap-4 place-items-center items-center text-black md:grid-cols-2 h-screen">
-        <Link
-          href={"/manutenzionePage"}
-          className="bg-white shadow-2xl rounded-lg p-6 text-center"
-        >
-          <DotLottieReact
-            src="https://lottie.host/9042ee07-d5f1-4d2b-ae6b-ef845cd74b99/can1IgK5Zo.json"
-            loop
-            autoplay
-            className="w-full h-48 mb-4"
-          />
-          <h1 className={`${ruda.className} text-2xl md:text-4xl`}>
-            Non più scelte
-            <br />
-            <span className="bg-green-300">avventate</span>, solo
-            <br />
-            acquisti intelligenti
-          </h1>
-        </Link>
-        </div>
-        <Footer />
-
-        </>
-    )
+export default function AnalisiPredittive() {
+  return (
+    <>
+      <Header />
+      <div className="grid grid-row-1 gap-10 place-items-center items-center mt-8">
+        <Card 
+        pagina="/manutenzionePage"
+        link="https://lottie.host/aaf6ce5f-988b-4854-a492-2d67a8eaa101/WSbDTbzVyp.json"
+        frase="Usa il nostro modello di AI per prevedere i gol"
+      />
+        <Card 
+        pagina="/manutenzionePage"
+        link="https://lottie.host/2ebd6508-48fd-4e8c-a3b3-b0e6afcf2492/3euX7sdZKQ.json"
+        frase="Usa il nostro modello di AI per prevedere gli assist"
+      />
+        <Card 
+        pagina="/manutenzionePage"
+        link="https://lottie.host/cb07e41b-8080-47a7-ab98-5b9d3d085002/GxYqSUgMKd.json"
+        frase="Usa il nostro modello di AI per prevedere il prezzo"
+      />
+      </div>
+      <Footer />
+    </>
+  );
 }
-

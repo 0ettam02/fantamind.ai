@@ -21,7 +21,7 @@ export default function Header() {
 
   return (
     <header
-      className={`header ${ruda.className} flex flex-col items-center md:items-start md:flex-row md:ml-[5em] `}
+      className={`header ${ruda.className} flex flex-col items-center md:items-start md:flex-row`}
     >
       <Link href={"/"}>
         <div className="titolo flex">
