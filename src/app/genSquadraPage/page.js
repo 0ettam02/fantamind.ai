@@ -4,6 +4,9 @@ import Header from "../components/headerComponent";
 import Footer from "../components/footerComponent";
 import { Ruda } from "next/font/google";
 import Image from "next/image";
+import config from '../components/config';
+
+
 
 const ruda = Ruda({
   subsets: ["latin"],
@@ -40,6 +43,8 @@ export default function GenerazioneSquadra() {
     try {
       const response = await fetch("https://fantamind-ai.onrender.com/seleziona_squadra", {
       //const response = await fetch("http://localhost:5000/seleziona_squadra", {
+      //const response = await fetch(config.endpoints.previsionePrezzo, {
+
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -75,7 +80,7 @@ export default function GenerazioneSquadra() {
               <h1 className="text-center mb-2">Soglia voto minimo</h1>
               <input
                 name="soglia_voto_minimo"
-                placeholder="voto minimo"
+                placeholder="6"
                 onChange={handleChange}
                 className="shadow-input shadow-lg rounded-lg p-4"
               />
@@ -84,7 +89,7 @@ export default function GenerazioneSquadra() {
               <h1 className="text-center mb-2">Soglia voto massimo</h1>
               <input
                 name="soglia_voto_massimo"
-                placeholder="voto massimo"
+                placeholder="10"
                 onChange={handleChange}
                 className="shadow-input shadow-lg rounded-lg p-4"
               />
@@ -93,7 +98,7 @@ export default function GenerazioneSquadra() {
               <h1 className="text-center mb-2">soglia rigori minimi parati</h1>
               <input
                 name="soglia_rp_minimi_parati"
-                placeholder="rigori parati minimi"
+                placeholder="0"
                 onChange={handleChange}
                 className="shadow-input shadow-lg rounded-lg p-4"
               />
@@ -104,7 +109,7 @@ export default function GenerazioneSquadra() {
               </h1>
               <input
                 name="soglia_rc_minimi_calciati"
-                placeholder="rigori calciati minimi"
+                placeholder="0"
                 onChange={handleChange}
                 className="shadow-input shadow-lg rounded-lg p-4"
               />
@@ -113,7 +118,7 @@ export default function GenerazioneSquadra() {
               <h1 className="text-center mb-2">Soglia rigori massimi errati</h1>
               <input
                 name="soglia_r_errati_max"
-                placeholder="rigori sbagliati massimi"
+                placeholder="10"
                 onChange={handleChange}
                 className="shadow-input shadow-lg rounded-lg p-4"
               />
@@ -126,7 +131,7 @@ export default function GenerazioneSquadra() {
               </h1>
               <input
                 name="soglia_amm_max"
-                placeholder="ammonizioni massime"
+                placeholder="10"
                 onChange={handleChange}
                 className="shadow-input shadow-lg rounded-lg p-4"
               />
@@ -135,7 +140,7 @@ export default function GenerazioneSquadra() {
               <h1 className="text-center mb-2">Soglia espulsioni massime</h1>
               <input
                 name="soglia_esp_max"
-                placeholder="espulsioni massime"
+                placeholder="10"
                 onChange={handleChange}
                 className="shadow-input shadow-lg rounded-lg p-4"
               />
@@ -144,7 +149,7 @@ export default function GenerazioneSquadra() {
               <h1 className="text-center mb-2">Soglia autogol massime</h1>
               <input
                 name="soglia_au_max"
-                placeholder="autogol massimi"
+                placeholder="10"
                 onChange={handleChange}
                 className="shadow-input shadow-lg rounded-lg p-4"
               />
