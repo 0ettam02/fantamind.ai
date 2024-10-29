@@ -22,7 +22,9 @@ export default function Card({ pagina, link, frase }) {
         <div className="flex justify-center mt-6">
         <Link href={pagina} className="border border-black border-xl rounded-3xl p-4 border-4">Scopri di più</Link>
         </div>
-        <DotLottieReact src={link} loop autoplay className="" />
+        <div className="flex justify-center items-center">
+        <DotLottieReact src={link} loop autoplay className="md:w-1/2 md:h-1/2" />
+        </div>
       </div>
     </>
   );
