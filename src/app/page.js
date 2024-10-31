@@ -6,12 +6,12 @@ import Footer from "./components/footerComponent";
 export default function Home() {
   return (
     <>
-      <div className="md:h-screen">
+      <div className="lg:h-screen">
         <Header />
         <Hero />
 
       </div>
-      <div className="mt-[10em] md:mt-0">
+      <div className="mt-[10em] lg:mt-0">
         <HomePage />
         </div>
       <Footer />

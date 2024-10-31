@@ -41,8 +41,8 @@ export default function GenerazioneSquadra() {
     setResult(null);
 
     try {
-      const response = await fetch("https://fantamind-ai.onrender.com/seleziona_squadra", {
-      //const response = await fetch("http://localhost:5000/seleziona_squadra", {
+      //const response = await fetch("https://fantamind-ai.onrender.com/seleziona_squadra", {
+      const response = await fetch("http://localhost:5000/seleziona_squadra", {
       //const response = await fetch(config.endpoints.previsionePrezzo, {
 
         method: "POST",

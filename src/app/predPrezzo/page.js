@@ -20,8 +20,8 @@ export default function PredizionePrezzo() {
     setPrediction(null);
 
     try {
-      const response = await fetch("https://fantamind-ai.onrender.com/previsionePrezzo", {
-      //const response = await fetch("http://127.0.0.1:5000/previsionePrezzo", {
+      //const response = await fetch("https://fantamind-ai.onrender.com/previsionePrezzo", {
+      const response = await fetch("http://127.0.0.1:5000/previsionePrezzo", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
