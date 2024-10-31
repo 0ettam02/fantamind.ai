@@ -19,8 +19,8 @@ export default function PredizioneAssist() {
     setPrediction(null);
 
     try {
-      //const response = await fetch("https://fantamind-ai.onrender.com/predizioneAssist", {
-      const response = await fetch("http://127.0.0.1:5000/predizioneAssist", {
+      const response = await fetch("https://fantamind-ai.onrender.com/predizioneAssist", {
+      //const response = await fetch("http://127.0.0.1:5000/predizioneAssist", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
