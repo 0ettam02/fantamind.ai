@@ -14,6 +14,12 @@ export default function Ricerca() {
   return (
     <>
       <Header />
+      <DotLottieReact
+          src="https://lottie.host/e90675c2-ec01-4aad-a5eb-4ddf93ca3257/R9XQyHpPI2.json"
+          loop
+          autoplay
+          className="mt-0 md:mt-[-8em]"
+        />
       <div className={`${ruda.className} mt-8 flex flex-col flex-grow`}>
         <h1 className="text-center text-xl md:text-5xl">
           Nella nostra sezione di Ricerca, ci concentriamo sullo sviluppo di un
@@ -25,12 +31,6 @@ export default function Ricerca() {
           miglioramento continuo, fornendo consigli sempre più precisi e
           vincenti per i nostri utenti.
         </h1>
-        <DotLottieReact
-          src="https://lottie.host/e90675c2-ec01-4aad-a5eb-4ddf93ca3257/R9XQyHpPI2.json"
-          loop
-          autoplay
-          className="mt-0 md:mt-[-8em]"
-        />
         <div className="flex flex-col justify-center items-center mt-8">
         <h1 className="text-3xl text-center md:text-5xl">Aree di ricerca</h1>
         <p className="text-center max-w-[40em]">

@@ -18,12 +18,12 @@ export default function HomePage() {
         <Card 
         pagina="/genSquadraPage"
         link="https://lottie.host/d1c6e341-e895-4d83-9c4b-241a6b0b7e84/fl7GnlXO8k.json"
-        frase="Usa il generatore intelligente per creare la squadra migliore"
+        frase="Usa il nostro generatore intelligente per creare la tua squadra"
       />
         <Card 
         pagina="/analisiPredittivaPage" 
         link="https://lottie.host/7e08caff-20f0-4bb6-a7e0-53f236e8f432/n1mZRn2SQm.json" 
-        frase="Usa l&apos;analisi predittiva per trasformare le tue intuizioni in vittorie"
+        frase="Scopri cosa i nostri modelli di intelligenza artificiale hanno da offrirti"
       />
       </div>
     </>

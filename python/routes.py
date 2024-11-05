@@ -1,4 +1,4 @@
-from flask import Blueprint, request, jsonify
+from flask import Flask, Blueprint, request, jsonify
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
@@ -7,6 +7,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error
 from fuzzywuzzy import fuzz
 import matplotlib.pyplot as plt
 
+app = Flask(__name__)
 app_routes = Blueprint('app_routes', __name__)
 
 # Caricamento dei dataset
@@ -21,15 +22,6 @@ dataset2["Mv"] = dataset2["Mv"].str.replace(",", ".").astype(float)
 dataset["Fm"] = dataset["Fm"].str.replace(",", ".").astype(float)
 dataset2["Fm"] = dataset2["Fm"].str.replace(",", ".").astype(float)
 
-# Funzione per la visualizzazione di un dato specifico
-def plot_histogram(data, column_name):
-    plt.hist(data[column_name])
-    plt.title(f'Distribuzione di {column_name}')
-    plt.xlabel(column_name)
-    plt.ylabel('Frequenza')
-    plt.show()
-
-# Rotta per la selezione della squadra
 @app_routes.route('/seleziona_squadra', methods=['POST'])
 def seleziona_squadra():
     data = request.json
@@ -42,7 +34,6 @@ def seleziona_squadra():
     soglia_esp_max = float(data.get("soglia_esp_max"))
     soglia_au_max = float(data.get("soglia_au_max"))
 
-    # Filtro dei giocatori per ruolo
     portieri_selezionati = dataset[
         (dataset['Mv'] >= soglia_voto_minimo) & (dataset['Mv'] < soglia_voto_massimo) & 
         (dataset['R'] == 'P') & (dataset['Pv'] > 20) & 
@@ -53,39 +44,46 @@ def seleziona_squadra():
 
     difensori_selezionati = dataset[
         (dataset['Fm'] >= soglia_voto_minimo) & (dataset['Fm'] < soglia_voto_massimo) & 
-        (dataset['R'] == 'D') & (dataset['Pv'] > 20) &
-        (dataset['Rc'] >= soglia_rc_minimi_calciati) & (dataset['R-'] <= soglia_r_errati_max) & 
+        (dataset['R'] == 'D') & (dataset['Pv'] > 20) & 
+        (dataset['Rc'] >= soglia_rc_minimi_calciati) & 
         (dataset['Amm'] <= soglia_amm_max) & (dataset['Esp'] <= soglia_esp_max) & 
         (dataset['Au'] <= soglia_au_max)
     ].sort_values(by='Fm', ascending=False)
 
     centrocampisti_selezionati = dataset[
         (dataset['Fm'] >= soglia_voto_minimo) & (dataset['Fm'] < soglia_voto_massimo) & 
-        (dataset['R'] == 'C') & (dataset['Pv'] > 20) &
-        (dataset['Rc'] >= soglia_rc_minimi_calciati) & (dataset['R-'] <= soglia_r_errati_max) & 
+        (dataset['R'] == 'C') & (dataset['Pv'] > 20) & 
+        (dataset['Rc'] >= soglia_rc_minimi_calciati) & 
         (dataset['Amm'] <= soglia_amm_max) & (dataset['Esp'] <= soglia_esp_max) & 
         (dataset['Au'] <= soglia_au_max)
     ].sort_values(by='Fm', ascending=False)
 
     attaccanti_selezionati = dataset[
         (dataset['Fm'] >= soglia_voto_minimo) & (dataset['Fm'] < soglia_voto_massimo) & 
-        (dataset['R'] == 'A') & (dataset['Pv'] > 20) &
-        (dataset['Rc'] >= soglia_rc_minimi_calciati) & (dataset['R-'] <= soglia_r_errati_max) & 
+        (dataset['R'] == 'A') & (dataset['Pv'] > 20) & 
+        (dataset['Rc'] >= soglia_rc_minimi_calciati) & 
         (dataset['Amm'] <= soglia_amm_max) & (dataset['Esp'] <= soglia_esp_max) & 
         (dataset['Au'] <= soglia_au_max)
     ].sort_values(by='Fm', ascending=False)
 
-    #squadra finale
-    squadra_fantacalcio = pd.concat([
-        portieri_selezionati.head(3), 
-        difensori_selezionati.head(8), 
-        centrocampisti_selezionati.head(8), 
+    squadra_selezionata = pd.concat([
+        portieri_selezionati.head(3),
+        difensori_selezionati.head(8),
+        centrocampisti_selezionati.head(8),
         attaccanti_selezionati.head(6)
-    ])
+    ])[['Nome', 'R', 'Mv', 'Fm']]
 
-    return jsonify(squadra_fantacalcio.to_dict(orient='records'))
+    return jsonify(squadra_selezionata.to_dict(orient='records'))
 
-# Rotta per la predizione dei goal
+@app_routes.route('/get_giocatori', methods=['GET'])
+def get_giocatori():
+    ruolo = request.args.get('ruolo')
+    if ruolo in ['P', 'D', 'C', 'A']:
+        giocatori = dataset[dataset['R'] == ruolo][['Nome', 'Mv', 'Fm']].to_dict(orient='records')
+        return jsonify(giocatori)
+    return jsonify([])
+
+# Rotta per la predizione dei goal------------------------------------------------------------------------------------------------------------------------------------
 @app_routes.route('/predizioneGol', methods=['POST'])
 def predizioneGol():
     data = request.get_json()
@@ -131,7 +129,7 @@ def predizioneGol():
         "message": message
     })
 
-# Rotta per la predizione degli assist
+# Rotta per la predizione degli assist-----------------------------------------------------------------------------------------------------------------
 @app_routes.route('/predizioneAssist', methods=['POST'])
 def predizioneAssist():
     data = request.json
@@ -178,7 +176,7 @@ def predizioneAssist():
         "message": message
     })
 
-# Rotta per la predizione del prezzo
+# Rotta per la predizione del prezzo-----------------------------------------------------------------------------------------------------------------
 @app_routes.route('/previsionePrezzo', methods=['POST'])
 def previsionePrezzo():
     data = request.get_json()
