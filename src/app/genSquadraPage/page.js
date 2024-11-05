@@ -78,7 +78,8 @@ export default function GenerazioneSquadra() {
 
   const fetchPlayers = async (role) => {
     const response = await fetch(
-      `http://localhost:5000/get_giocatori?ruolo=${role}`
+      //`http://localhost:5000/get_giocatori?ruolo=${role}`
+      `https://fantamind-ai.onrender.com/get_giocatori?ruolo=${role}`
     );
     const players = await response.json();
     return players;
