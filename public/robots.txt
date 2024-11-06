@@ -1,0 +1,31 @@
+# www.robotstxt.org
+
+# Permetti a tutti i crawler
+User-agent: *
+
+# Permetti l'accesso a tutte le pagine principali
+Allow: /
+Allow: /ricercaPage
+Allow: /analisiPredittivaPage
+Allow: /predGol
+Allow: /predAssist
+Allow: /predPrezzo
+Allow: /genSquadraPage
+
+# Blocca l'accesso alle pagine di manutenzione e admin
+Disallow: /manutenzionePage
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*?*
+
+# Blocca l'accesso alle cartelle di sviluppo
+Disallow: /node_modules/
+Disallow: /.next/
+Disallow: /src/
+
+# Crawl-delay per non sovraccaricare il server
+Crawl-delay: 10
+
+# Sitemap
+Sitemap: https://fantamind-ai.vercel.app/sitemap.xml

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
+  <url>
+    <loc>https://fantamind-ai.vercel.app</loc>
+    <lastmod>2024-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Pagina Ricerca -->
+  <url>
+    <loc>https://fantamind-ai.vercel.app/ricercaPage</loc>
+    <lastmod>2024-03-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Pagina Analisi Predittive -->
+  <url>
+    <loc>https://fantamind-ai.vercel.app/analisiPredittivaPage</loc>
+    <lastmod>2024-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Pagina Predizione Gol -->
+  <url>
+    <loc>https://fantamind-ai.vercel.app/predGol</loc>
+    <lastmod>2024-03-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Pagina Predizione Assist -->
+  <url>
+    <loc>https://fantamind-ai.vercel.app/predAssist</loc>
+    <lastmod>2024-03-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Pagina Predizione Prezzo -->
+  <url>
+    <loc>https://fantamind-ai.vercel.app/predPrezzo</loc>
+    <lastmod>2024-03-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Pagina Generazione Squadra -->
+  <url>
+    <loc>https://fantamind-ai.vercel.app/genSquadraPage</loc>
+    <lastmod>2024-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+</urlset>

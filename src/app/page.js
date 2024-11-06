@@ -6,16 +6,27 @@ import Footer from "./components/footerComponent";
 export default function Home() {
   return (
     <>
-      <div className="lg:h-screen">
-        <Header />
-        <Hero />
+      <Header />
+      
+      <main className="flex flex-col min-h-screen">
+        {/* Hero Section */}
+        <section 
+          className="lg:h-screen" 
+          aria-label="Hero section"
+        >
+          <Hero />
+        </section>
 
-      </div>
-      <div className="mt-[10em] lg:mt-0">
-        <HomePage />
-        </div>
+        {/* Main Content */}
+        <section 
+          className="mt-[10em] lg:mt-0"
+          aria-label="Main content"
+        >
+          <HomePage />
+        </section>
+      </main>
+
       <Footer />
-        
     </>
   );
 }
