@@ -20,8 +20,8 @@ fantamind.ai/python/datasets
 ## 🛠️ Installazione
 Assicurati di avere installati:
 
-- **Python 3.8+ per il backend Flask
-- **Node.js 16+ per il frontend Next.js
+- **Python** 3.8+ per il backend Flask
+- **Node.js** 16+ per il frontend Next.js
 
 ```bash
 git clone https://github.com/tuo_username/fantamind.ai.git
@@ -47,7 +47,7 @@ flask run
 Questo progetto è distribuito sotto la licenza MIT. Vedi il file LICENSE per maggiori dettagli.
 
 ## 📫 Contatti 
-- **Email: matteoaruta6@gmail.comn
-- **GitHub: 0ettam02
+- **Email**: matteoaruta6@gmail.comn
+- **GitHub**: 0ettam02
 
 
