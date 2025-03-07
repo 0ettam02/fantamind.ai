@@ -1,37 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#  ⚽ fantamind.ai
+Fantamind.ai è un progetto che utilizza Machine Learning e statistiche avanzate per aiutare i fantallenatori a creare squadre in modo intelligente. L'obiettivo è fornire previsioni sportive per il fantacalcio, ottimizzando le scelte di formazione e mercato.
 
-## Getting Started
+## 📌 Introduzione
+Fantamind.ai nasce dall'esigenza di supportare i fantallenatori nella gestione delle proprie squadre attraverso modelli di previsione avanzati. Utilizzando algoritmi di Machine Learning, l'app analizza statistiche dei giocatori, dati storici e fattori di performance per offrire suggerimenti ottimizzati sulle formazioni e i trasferimenti.
 
-First, run the development server:
+## 🧑‍💻 Funzionalità
+- **Previsioni delle Prestazioni**: Modelli di Machine Learning per prevedere le prestazioni dei giocatori.
+- **Consigli sulla Formazione**: Suggerimenti basati su analisi statistiche per ottimizzare la formazione.
+- **Dashboard Interattiva**: Visualizzazione intuitiva dei dati e delle previsioni.
+- **API REST**: Endpoint per accedere a previsioni e statistiche.
 
+## 📊 Dataset
+
+Il dataset utilizzato è stato creato per predendo i dati dal sito di fantagazzetta, è possibile trovarlo a questa directory:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+fantamind.ai/python/datasets
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Installazione
+Assicurati di avere installati:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Python 3.8+ per il backend Flask
+- **Node.js 16+ per il frontend Next.js
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   ```bash
+   git clone https://github.com/tuo_username/fantamind.ai.git
+   cd fantamind.ai
+   ****
+ ```
 
-## Learn More
+Per eseguire il progettoin frontend, segui questi passaggi:
+   ```bash
+    cd fantamind.ai
+    npm install
+    npm run dev
+   ****
+ ```
 
-To learn more about Next.js, take a look at the following resources:
+Per eseguire il progettoin backend, segui questi passaggi:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   cd python
+   pip freeze > requirements.txt
+   flask run
+   ****
+   ```
+## 📜 Licenza
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Questo progetto è distribuito sotto la licenza MIT. Vedi il file LICENSE per maggiori dettagli.
 
-## Deploy on Vercel
+## 📫 Contatti 
+- **Email: matteoaruta6@gmail.comn
+- **GitHub: 0ettam02
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# fantamind.ai
