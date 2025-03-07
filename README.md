@@ -23,28 +23,25 @@ Assicurati di avere installati:
 - **Python 3.8+ per il backend Flask
 - **Node.js 16+ per il frontend Next.js
 
-   ```bash
-   git clone https://github.com/tuo_username/fantamind.ai.git
-   cd fantamind.ai
-   ****
- ```
+```bash
+git clone https://github.com/tuo_username/fantamind.ai.git
+cd fantamind.ai
+```
 
 Per eseguire il progettoin frontend, segui questi passaggi:
-   ```bash
-    cd fantamind.ai
-    npm install
-    npm run dev
-   ****
- ```
+```bash
+cd fantamind.ai
+npm install
+npm run dev
+```
 
 Per eseguire il progettoin backend, segui questi passaggi:
 
-   ```bash
-   cd python
-   pip freeze > requirements.txt
-   flask run
-   ****
-   ```
+```bash
+cd python
+pip freeze > requirements.txt
+flask run
+```
 ## 📜 Licenza
 
 Questo progetto è distribuito sotto la licenza MIT. Vedi il file LICENSE per maggiori dettagli.
