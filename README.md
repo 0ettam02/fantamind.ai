@@ -28,18 +28,19 @@ git clone https://github.com/tuo_username/fantamind.ai.git
 cd fantamind.ai
 ```
 
-Per eseguire il progettoin frontend, segui questi passaggi:
+Per eseguire il progetto in frontend, segui questi passaggi:
 ```bash
 cd fantamind.ai
 npm install
 npm run dev
 ```
 
-Per eseguire il progettoin backend, segui questi passaggi:
+Per eseguire il progetto in backend, segui questi passaggi:
 
 ```bash
 cd python
 pip freeze > requirements.txt
+pip install requirement.txt
 flask run
 ```
 ## 📜 Licenza
